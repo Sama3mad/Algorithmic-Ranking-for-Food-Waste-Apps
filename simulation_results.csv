@@ -1,0 +1,11 @@
+Restaurant,Estimated,Actual,Reserved,Sold,Cancelled,Revenue,Exposures
+Krispy Kreme,10,8,10,0,2,0,28
+TBS Pizza,10,8,4,4,0,600,26
+Starbucks,15,15,15,15,0,1500,63
+Paul Bakery,12,12,12,12,0,1080,59
+Costa Coffee,8,9,8,8,0,680,74
+Greggs,20,20,17,17,0,1190,31
+Pizza Hut,14,16,6,6,0,840,31
+Pret A Manger,18,15,15,15,0,1425,99
+Subway,16,18,5,5,0,550,33
+Tim Hortons,10,8,8,8,0,640,56

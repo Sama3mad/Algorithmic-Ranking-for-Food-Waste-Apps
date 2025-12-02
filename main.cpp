@@ -15,6 +15,8 @@ class Customer;
 class Restaurant;
 class Reservation;
 class MarketState;
+#include <fstream>
+#include <sstream>
 
 // ============================================================================
 // TIMESTAMP UTILITIES
@@ -68,6 +70,9 @@ struct CustomerHistory {
 class Customer {
 public:
     int id;
+    float longitude;
+    float latitude;
+    std::string customer_name;
     std::string segment;
     float willingness_to_pay;
 
@@ -89,7 +94,7 @@ public:
     std::map<std::string, float> category_preference;
 
     // Default constructor
-    Customer() : id(0), segment("regular"), willingness_to_pay(200.0f),
+    Customer() : id(0), customer_name("garry"),segment("regular"), willingness_to_pay(200.0f),
         loyalty(0.8f), leaving_threshold(5.0f), churned(false) {
         category_preference["bakery"] = 1.0f;
         category_preference["cafe"] = 1.0f;
@@ -100,6 +105,40 @@ public:
         : id(customer_id), segment(seg), willingness_to_pay(200.0f),
         loyalty(0.8f), leaving_threshold(3.0f), churned(false) {
 
+        category_preference["bakery"] = 1.0f;
+        category_preference["cafe"] = 1.0f;
+        category_preference["restaurant"] = 1.0f;
+    }
+
+
+    Customer(int id_,
+         float lon_,
+         float lat_,
+         const std::string& name_,
+         const std::string& segment_,
+         float wtp,
+         float rating_weight,
+         float price_weight,
+         float novelty_weight,
+         float leaving_thresh)
+    {
+        id = id_;
+        longitude = lon_;
+        latitude = lat_;
+        customer_name = name_;
+        segment = segment_;
+        willingness_to_pay = wtp;
+
+        // Set weights from CSV
+        weights.rating_w = rating_weight;
+        weights.price_w = price_weight;
+        weights.novelty_w = novelty_weight;
+
+        loyalty = 0.8f;
+        leaving_threshold = leaving_thresh;
+        churned = false;
+
+        // Default categories if needed
         category_preference["bakery"] = 1.0f;
         category_preference["cafe"] = 1.0f;
         category_preference["restaurant"] = 1.0f;
@@ -252,7 +291,21 @@ float Customer::calculate_store_score(const Restaurant& store) const {
         novelty_score = weights.novelty_w * (1.0f / (1.0f + it->second));
     }
 
-    float total_score = rating_score + price_score + novelty_score;
+    // 4) Availability / unsold-bags component
+    //    More unsold bags → higher score
+    int unsold_bags = std::max(0, store.actual_bags - store.reserved_count);
+    int capacity   = std::max(1, store.actual_bags);  // avoid divide by zero
+
+    // ratio in [0,1]: 0 = no stock, 1 = fully unsold
+    float availability_ratio = static_cast<float>(unsold_bags) / capacity;
+
+    // weight for how much availability matters vs rating/price/novelty
+    const float availability_weight = 1.0f;
+
+    float availability_score = availability_weight * availability_ratio;
+
+    // 5) Final total score
+    float total_score = rating_score + price_score + novelty_score + availability_score;
     return total_score;
 }
 
@@ -262,21 +315,29 @@ float Customer::calculate_store_score(const Restaurant& store) const {
 std::vector<int> get_displayed_stores(const Customer& customer,
     const MarketState& market_state,
     int n_displayed) {
+
     std::vector<int> available = market_state.get_available_restaurant_ids();
 
-    // Sort by rating (descending)
+    // Sort by *customer's* store score (descending)
     std::sort(available.begin(), available.end(),
-        [&market_state](int a, int b) {
+        [&market_state, &customer](int a, int b) {
             const Restaurant* r1 = nullptr;
             const Restaurant* r2 = nullptr;
+
             for (const auto& r : market_state.restaurants) {
                 if (r.business_id == a) r1 = &r;
                 if (r.business_id == b) r2 = &r;
             }
-            return r1->general_ranking > r2->general_ranking;
+
+            // Just in case (shouldn't happen, but keeps sort safe)
+            if (!r1 || !r2) return false;
+
+            float s1 = customer.calculate_store_score(*r1);
+            float s2 = customer.calculate_store_score(*r2);
+
+            return s1 > s2; // descending
         });
 
-    // Return top n
     int num_to_show = std::min(n_displayed, (int)available.size());
     return std::vector<int>(available.begin(), available.begin() + num_to_show);
 }
@@ -462,9 +523,16 @@ public:
 class ArrivalGenerator {
 private:
     std::mt19937 rng;
+    std::vector<Customer> customers_from_csv;
 
 public:
     ArrivalGenerator(unsigned seed = std::time(nullptr)) : rng(seed) {}
+
+    ArrivalGenerator(const std::string& csv_path, unsigned seed = std::time(nullptr))
+        : rng(seed)
+    {
+        load_customers_from_csv(csv_path);
+    }
 
     std::vector<Timestamp> generate_arrival_times(int num_customers) {
         std::vector<Timestamp> times;
@@ -479,7 +547,69 @@ public:
         return times;
     }
 
-    Customer generate_customer(int customer_id) {
+    void load_customers_from_csv(const std::string& filename) {
+        std::ifstream file(filename);
+        if (!file.is_open()) {
+            std::cerr << "Failed to open CSV: " << filename << std::endl;
+            return;
+        }
+
+        std::string line;
+        bool firstLine = true;
+
+        while (std::getline(file, line)) {
+            if (firstLine) {
+                firstLine = false; // skip header
+                continue;
+            }
+            if (line.empty()) continue;
+
+            std::stringstream ss(line);
+
+            std::string id_str, lon_str, lat_str, name_str, segment_str;
+            std::string wtp_str, ratingw_str, pricew_str, noveltyw_str, leave_str;
+
+            std::getline(ss, id_str, ',');
+            std::getline(ss, lon_str, ',');
+            std::getline(ss, lat_str, ',');
+            std::getline(ss, name_str, ',');
+            std::getline(ss, segment_str, ',');
+            std::getline(ss, wtp_str, ',');
+            std::getline(ss, ratingw_str, ',');
+            std::getline(ss, pricew_str, ',');
+            std::getline(ss, noveltyw_str, ',');
+            std::getline(ss, leave_str, ',');
+
+            int id = std::stoi(id_str);
+            float lon = std::stof(lon_str);
+            float lat = std::stof(lat_str);
+            float wtp = std::stof(wtp_str);
+            float rating_w = std::stof(ratingw_str);
+            float price_w = std::stof(pricew_str);
+            float novelty_w = std::stof(noveltyw_str);
+            float leaving_threshold = std::stof(leave_str);
+
+            // Create using the new constructor
+            Customer c(id, lon, lat, name_str, segment_str, wtp,
+                       rating_w, price_w, novelty_w, leaving_threshold);
+
+            customers_from_csv.push_back(c);
+        }
+
+        std::cout << "Loaded " << customers_from_csv.size()
+                  << " customers from " << filename << std::endl;
+
+        file.close();
+    }
+
+    Customer generate_customer(int index) {
+        if (!customers_from_csv.empty()) {
+            if (index < (int)customers_from_csv.size())
+                return customers_from_csv[index];
+            else
+                return customers_from_csv.back(); // fallback last
+        }
+       /*
         std::uniform_int_distribution<int> segment_dist(0, 2);
         int seg = segment_dist(rng);
 
@@ -499,10 +629,17 @@ public:
             wtp = 250.0f;
         }
 
-        Customer customer(customer_id, segment);
+        Customer customer(index, segment);
         customer.willingness_to_pay = wtp;
         return customer;
+        */
     }
+
+
+
+
+
+
 };
 
 // ============================================================================
@@ -658,7 +795,9 @@ private:
     int n_displayed;
 
 public:
-    SimulationEngine(int n_display = 5) : n_displayed(n_display) {}
+    SimulationEngine(int n_display, const std::string& customer_csv)
+    : n_displayed(n_display),
+      arrival_generator(customer_csv) {}
 
     void initialize(const std::vector<Restaurant>& restaurants) {
         market_state.restaurants = restaurants;
@@ -770,7 +909,7 @@ int main() {
     restaurants.push_back(Restaurant(10, "Tim Hortons", 4.2f, "cafe", 10, 80.0f));
 
     // Initialize simulation
-    SimulationEngine engine(5);  // Display top 5 stores
+    SimulationEngine engine(5, "C:\\Users\\ziadg\\Desktop\\analysis project\\customer.csv");  // Display top 5 stores
     engine.initialize(restaurants);
 
     // Run simulation with 100 customers
