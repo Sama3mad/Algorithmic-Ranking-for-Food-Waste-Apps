@@ -1,0 +1,468 @@
+
+======================================================================
+=== DETAILED SIMULATION LOG - BASELINE ALGORITHM ===
+======================================================================
+
+Timestamp: 1765035291
+
+--- Overall Metrics ---
+Total Bags Sold: 602
+Total Bags Cancelled: 14
+Total Bags Unsold (Waste): 604
+Total Revenue Generated: $53815.00
+Revenue Lost: $1245.00
+Revenue Efficiency: 97.74%
+Customers Arrived: 700
+Customers Who Left: 84
+Conversion Rate: 88.00%
+Gini Coefficient (Fairness): 0.5201
+  (0 = perfect equality, 1 = maximum inequality)
+
+--- Per-Store Metrics ---
+
+Krispy Kreme (ID: 1):
+  Initial Rating: 4.80
+  Final Rating: 5.00
+  Rating Change: 0.20
+  Orders Confirmed: 68
+  Orders Cancelled: 2
+  Estimated Bags: 10
+  Actual Bags: 11
+  Bags Sold: 68
+  Bags Cancelled: 2
+  Waste: 0
+  Revenue: $5440.00
+  Times Displayed: 333
+
+TBS Pizza (ID: 2):
+  Initial Rating: 4.20
+  Final Rating: 4.28
+  Rating Change: 0.08
+  Orders Confirmed: 8
+  Orders Cancelled: 0
+  Estimated Bags: 10
+  Actual Bags: 11
+  Bags Sold: 8
+  Bags Cancelled: 0
+  Waste: 32
+  Revenue: $1200.00
+  Times Displayed: 134
+
+Starbucks (ID: 3):
+  Initial Rating: 4.50
+  Final Rating: 5.00
+  Rating Change: 0.50
+  Orders Confirmed: 101
+  Orders Cancelled: 3
+  Estimated Bags: 15
+  Actual Bags: 17
+  Bags Sold: 101
+  Bags Cancelled: 3
+  Waste: 0
+  Revenue: $10100.00
+  Times Displayed: 637
+
+Paul Bakery (ID: 4):
+  Initial Rating: 4.60
+  Final Rating: 5.00
+  Rating Change: 0.40
+  Orders Confirmed: 82
+  Orders Cancelled: 2
+  Estimated Bags: 12
+  Actual Bags: 13
+  Bags Sold: 82
+  Bags Cancelled: 2
+  Waste: 0
+  Revenue: $7380.00
+  Times Displayed: 459
+
+Costa Coffee (ID: 5):
+  Initial Rating: 4.30
+  Final Rating: 4.76
+  Rating Change: 0.46
+  Orders Confirmed: 46
+  Orders Cancelled: 0
+  Estimated Bags: 8
+  Actual Bags: 9
+  Bags Sold: 46
+  Bags Cancelled: 0
+  Waste: 0
+  Revenue: $3910.00
+  Times Displayed: 307
+
+Greggs (ID: 6):
+  Initial Rating: 4.00
+  Final Rating: 4.00
+  Rating Change: 0.00
+  Orders Confirmed: 0
+  Orders Cancelled: 0
+  Estimated Bags: 20
+  Actual Bags: 23
+  Bags Sold: 0
+  Bags Cancelled: 0
+  Waste: 145
+  Revenue: $0.00
+  Times Displayed: 0
+
+Pizza Hut (ID: 7):
+  Initial Rating: 4.10
+  Final Rating: 4.15
+  Rating Change: 0.05
+  Orders Confirmed: 5
+  Orders Cancelled: 0
+  Estimated Bags: 14
+  Actual Bags: 16
+  Bags Sold: 5
+  Bags Cancelled: 0
+  Waste: 59
+  Revenue: $700.00
+  Times Displayed: 21
+
+Pret A Manger (ID: 8):
+  Initial Rating: 4.40
+  Final Rating: 5.00
+  Rating Change: 0.60
+  Orders Confirmed: 114
+  Orders Cancelled: 3
+  Estimated Bags: 18
+  Actual Bags: 20
+  Bags Sold: 114
+  Bags Cancelled: 3
+  Waste: 0
+  Revenue: $10830.00
+  Times Displayed: 607
+
+Subway (ID: 9):
+  Initial Rating: 3.90
+  Final Rating: 3.90
+  Rating Change: 0.00
+  Orders Confirmed: 0
+  Orders Cancelled: 0
+  Estimated Bags: 16
+  Actual Bags: 18
+  Bags Sold: 0
+  Bags Cancelled: 0
+  Waste: 114
+  Revenue: $0.00
+  Times Displayed: 0
+
+Tim Hortons (ID: 10):
+  Initial Rating: 4.20
+  Final Rating: 4.55
+  Rating Change: 0.35
+  Orders Confirmed: 35
+  Orders Cancelled: 0
+  Estimated Bags: 10
+  Actual Bags: 11
+  Bags Sold: 35
+  Bags Cancelled: 0
+  Waste: 0
+  Revenue: $2800.00
+  Times Displayed: 222
+
+Dunkin Donuts (ID: 11):
+  Initial Rating: 4.30
+  Final Rating: 4.96
+  Rating Change: 0.66
+  Orders Confirmed: 76
+  Orders Cancelled: 2
+  Estimated Bags: 12
+  Actual Bags: 13
+  Bags Sold: 76
+  Bags Cancelled: 2
+  Waste: 0
+  Revenue: $5700.00
+  Times Displayed: 391
+
+Domino's Pizza (ID: 12):
+  Initial Rating: 4.00
+  Final Rating: 4.00
+  Rating Change: 0.00
+  Orders Confirmed: 0
+  Orders Cancelled: 0
+  Estimated Bags: 15
+  Actual Bags: 17
+  Bags Sold: 0
+  Bags Cancelled: 0
+  Waste: 107
+  Revenue: $0.00
+  Times Displayed: 0
+
+Cinnabon (ID: 13):
+  Initial Rating: 4.40
+  Final Rating: 4.91
+  Rating Change: 0.51
+  Orders Confirmed: 61
+  Orders Cancelled: 2
+  Estimated Bags: 9
+  Actual Bags: 10
+  Bags Sold: 61
+  Bags Cancelled: 2
+  Waste: 0
+  Revenue: $5185.00
+  Times Displayed: 339
+
+Caribou Coffee (ID: 14):
+  Initial Rating: 4.10
+  Final Rating: 4.10
+  Rating Change: 0.00
+  Orders Confirmed: 0
+  Orders Cancelled: 0
+  Estimated Bags: 11
+  Actual Bags: 12
+  Bags Sold: 0
+  Bags Cancelled: 0
+  Waste: 78
+  Revenue: $0.00
+  Times Displayed: 0
+
+Panera Bread (ID: 15):
+  Initial Rating: 4.20
+  Final Rating: 4.26
+  Rating Change: 0.06
+  Orders Confirmed: 6
+  Orders Cancelled: 0
+  Estimated Bags: 13
+  Actual Bags: 14
+  Bags Sold: 6
+  Bags Cancelled: 0
+  Waste: 69
+  Revenue: $570.00
+  Times Displayed: 50
+
+======================================================================
+=== DETAILED SIMULATION LOG - SMART ALGORITHM ===
+======================================================================
+
+Timestamp: 1765035291
+
+--- Overall Metrics ---
+Total Bags Sold: 592
+Total Bags Cancelled: 12
+Total Bags Unsold (Waste): 523
+Total Revenue Generated: $50785.00
+Revenue Lost: $1055.00
+Revenue Efficiency: 97.96%
+Customers Arrived: 700
+Customers Who Left: 96
+Conversion Rate: 86.29%
+Gini Coefficient (Fairness): 0.5125
+  (0 = perfect equality, 1 = maximum inequality)
+
+--- Per-Store Metrics ---
+
+Krispy Kreme (ID: 1):
+  Initial Rating: 4.80
+  Final Rating: 5.00
+  Rating Change: 0.20
+  Orders Confirmed: 68
+  Orders Cancelled: 2
+  Estimated Bags: 10
+  Actual Bags: 11
+  Bags Sold: 68
+  Bags Cancelled: 2
+  Waste: 0
+  Revenue: $5440.00
+  Times Displayed: 365
+
+TBS Pizza (ID: 2):
+  Initial Rating: 4.20
+  Final Rating: 4.20
+  Rating Change: 0.00
+  Orders Confirmed: 0
+  Orders Cancelled: 0
+  Estimated Bags: 10
+  Actual Bags: 11
+  Bags Sold: 0
+  Bags Cancelled: 0
+  Waste: 71
+  Revenue: $0.00
+  Times Displayed: 0
+
+Starbucks (ID: 3):
+  Initial Rating: 4.50
+  Final Rating: 4.96
+  Rating Change: 0.46
+  Orders Confirmed: 79
+  Orders Cancelled: 3
+  Estimated Bags: 15
+  Actual Bags: 17
+  Bags Sold: 79
+  Bags Cancelled: 3
+  Waste: 0
+  Revenue: $7900.00
+  Times Displayed: 482
+
+Paul Bakery (ID: 4):
+  Initial Rating: 4.60
+  Final Rating: 5.00
+  Rating Change: 0.40
+  Orders Confirmed: 82
+  Orders Cancelled: 2
+  Estimated Bags: 12
+  Actual Bags: 13
+  Bags Sold: 82
+  Bags Cancelled: 2
+  Waste: 0
+  Revenue: $7380.00
+  Times Displayed: 414
+
+Costa Coffee (ID: 5):
+  Initial Rating: 4.30
+  Final Rating: 4.43
+  Rating Change: 0.13
+  Orders Confirmed: 13
+  Orders Cancelled: 0
+  Estimated Bags: 8
+  Actual Bags: 9
+  Bags Sold: 13
+  Bags Cancelled: 0
+  Waste: 17
+  Revenue: $1105.00
+  Times Displayed: 86
+
+Greggs (ID: 6):
+  Initial Rating: 4.00
+  Final Rating: 4.68
+  Rating Change: 0.68
+  Orders Confirmed: 68
+  Orders Cancelled: 0
+  Estimated Bags: 20
+  Actual Bags: 23
+  Bags Sold: 68
+  Bags Cancelled: 0
+  Waste: 0
+  Revenue: $4760.00
+  Times Displayed: 510
+
+Pizza Hut (ID: 7):
+  Initial Rating: 4.10
+  Final Rating: 4.10
+  Rating Change: 0.00
+  Orders Confirmed: 0
+  Orders Cancelled: 0
+  Estimated Bags: 14
+  Actual Bags: 16
+  Bags Sold: 0
+  Bags Cancelled: 0
+  Waste: 102
+  Revenue: $0.00
+  Times Displayed: 0
+
+Pret A Manger (ID: 8):
+  Initial Rating: 4.40
+  Final Rating: 5.00
+  Rating Change: 0.60
+  Orders Confirmed: 111
+  Orders Cancelled: 1
+  Estimated Bags: 18
+  Actual Bags: 20
+  Bags Sold: 111
+  Bags Cancelled: 1
+  Waste: 0
+  Revenue: $10545.00
+  Times Displayed: 568
+
+Subway (ID: 9):
+  Initial Rating: 3.90
+  Final Rating: 3.90
+  Rating Change: 0.00
+  Orders Confirmed: 0
+  Orders Cancelled: 0
+  Estimated Bags: 16
+  Actual Bags: 18
+  Bags Sold: 0
+  Bags Cancelled: 0
+  Waste: 115
+  Revenue: $0.00
+  Times Displayed: 0
+
+Tim Hortons (ID: 10):
+  Initial Rating: 4.20
+  Final Rating: 4.49
+  Rating Change: 0.29
+  Orders Confirmed: 29
+  Orders Cancelled: 0
+  Estimated Bags: 10
+  Actual Bags: 11
+  Bags Sold: 29
+  Bags Cancelled: 0
+  Waste: 0
+  Revenue: $2320.00
+  Times Displayed: 257
+
+Dunkin Donuts (ID: 11):
+  Initial Rating: 4.30
+  Final Rating: 5.00
+  Rating Change: 0.70
+  Orders Confirmed: 80
+  Orders Cancelled: 2
+  Estimated Bags: 12
+  Actual Bags: 13
+  Bags Sold: 80
+  Bags Cancelled: 2
+  Waste: 0
+  Revenue: $6000.00
+  Times Displayed: 465
+
+Domino's Pizza (ID: 12):
+  Initial Rating: 4.00
+  Final Rating: 4.00
+  Rating Change: 0.00
+  Orders Confirmed: 0
+  Orders Cancelled: 0
+  Estimated Bags: 15
+  Actual Bags: 17
+  Bags Sold: 0
+  Bags Cancelled: 0
+  Waste: 108
+  Revenue: $0.00
+  Times Displayed: 0
+
+Cinnabon (ID: 13):
+  Initial Rating: 4.40
+  Final Rating: 4.85
+  Rating Change: 0.45
+  Orders Confirmed: 55
+  Orders Cancelled: 2
+  Estimated Bags: 9
+  Actual Bags: 10
+  Bags Sold: 55
+  Bags Cancelled: 2
+  Waste: 0
+  Revenue: $4675.00
+  Times Displayed: 325
+
+Caribou Coffee (ID: 14):
+  Initial Rating: 4.10
+  Final Rating: 4.11
+  Rating Change: 0.01
+  Orders Confirmed: 1
+  Orders Cancelled: 0
+  Estimated Bags: 11
+  Actual Bags: 12
+  Bags Sold: 1
+  Bags Cancelled: 0
+  Waste: 70
+  Revenue: $90.00
+  Times Displayed: 7
+
+Panera Bread (ID: 15):
+  Initial Rating: 4.20
+  Final Rating: 4.26
+  Rating Change: 0.06
+  Orders Confirmed: 6
+  Orders Cancelled: 0
+  Estimated Bags: 13
+  Actual Bags: 14
+  Bags Sold: 6
+  Bags Cancelled: 0
+  Waste: 40
+  Revenue: $570.00
+  Times Displayed: 21
+
+--- Algorithm Comparison ---
+Bags Sold: 592 vs 602
+Waste: 523 vs 604
+Revenue: $50785.00 vs $53815.00
+Fairness (Gini): 0.5125 vs 0.5201

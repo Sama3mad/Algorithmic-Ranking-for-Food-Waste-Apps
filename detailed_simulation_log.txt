@@ -1,0 +1,1965 @@
+
+====================================================================================================
+SIMULATION: BASELINE ALGORITHM
+====================================================================================================
+
+======================================================================
+=== Starting 7-Day Simulation (BASELINE Algorithm) ===
+Number of customers per day: 100
+Number of stores: 15
+======================================================================
+
+----------------------------------------------------------------------
+DAY 1 of 7
+----------------------------------------------------------------------
+
+=== Starting Day Simulation (BASELINE Algorithm) ===
+Number of customers: 100
+Number of stores: 15
+
+Initial Store Inventory:
+Krispy Kreme: Estimated=10, Actual=11, Price=$80, Rating=4.80
+TBS Pizza: Estimated=10, Actual=11, Price=$150.00, Rating=4.20
+Starbucks: Estimated=15, Actual=16, Price=$100.00, Rating=4.50
+Paul Bakery: Estimated=12, Actual=13, Price=$90.00, Rating=4.60
+Costa Coffee: Estimated=8, Actual=8, Price=$85.00, Rating=4.30
+Greggs: Estimated=20, Actual=22, Price=$70.00, Rating=4.00
+Pizza Hut: Estimated=14, Actual=15, Price=$140.00, Rating=4.10
+Pret A Manger: Estimated=18, Actual=20, Price=$95.00, Rating=4.40
+Subway: Estimated=16, Actual=17, Price=$110.00, Rating=3.90
+Tim Hortons: Estimated=10, Actual=11, Price=$80.00, Rating=4.20
+Dunkin Donuts: Estimated=12, Actual=13, Price=$75.00, Rating=4.30
+Domino's Pizza: Estimated=15, Actual=16, Price=$130.00, Rating=4.00
+Cinnabon: Estimated=9, Actual=10, Price=$85.00, Rating=4.40
+Caribou Coffee: Estimated=11, Actual=12, Price=$90.00, Rating=4.10
+Panera Bread: Estimated=13, Actual=14, Price=$95.00, Rating=4.20
+
+Total Reservations Made: 70
+Processing end of day...
+
+=== RATING CHANGES (Dynamic Ratings) ===
+Krispy Kreme: 4.80 -> 4.90 (+0.10) [Confirmed: 10, Cancelled: 0]
+TBS Pizza: 4.20 -> 4.28 (+0.08) [Confirmed: 8, Cancelled: 0]
+Starbucks: 4.50 -> 4.65 (+0.15) [Confirmed: 15, Cancelled: 0]
+Paul Bakery: 4.60 -> 4.72 (+0.12) [Confirmed: 12, Cancelled: 0]
+Costa Coffee: 4.30 -> 4.38 (+0.08) [Confirmed: 8, Cancelled: 0]
+Greggs: 4.00 -> 4.00 (+0.00) [Confirmed: 0, Cancelled: 0]
+Pizza Hut: 4.10 -> 4.10 (+0.00) [Confirmed: 0, Cancelled: 0]
+Pret A Manger: 4.40 -> 4.49 (+0.09) [Confirmed: 9, Cancelled: 0]
+Subway: 3.90 -> 3.90 (+0.00) [Confirmed: 0, Cancelled: 0]
+Tim Hortons: 4.20 -> 4.20 (+0.00) [Confirmed: 0, Cancelled: 0]
+Dunkin Donuts: 4.30 -> 4.35 (+0.05) [Confirmed: 5, Cancelled: 0]
+Domino's Pizza: 4.00 -> 4.00 (+0.00) [Confirmed: 0, Cancelled: 0]
+Cinnabon: 4.40 -> 4.43 (+0.03) [Confirmed: 3, Cancelled: 0]
+Caribou Coffee: 4.10 -> 4.10 (+0.00) [Confirmed: 0, Cancelled: 0]
+Panera Bread: 4.20 -> 4.20 (+0.00) [Confirmed: 0, Cancelled: 0]
+
+Day 1 Summary:
+  Bags Sold: 101
+  Waste: 108
+  Revenue: $9620.00
+
+----------------------------------------------------------------------
+DAY 2 of 7
+----------------------------------------------------------------------
+
+=== Starting Day Simulation (BASELINE Algorithm) ===
+Number of customers: 100
+Number of stores: 15
+
+Initial Store Inventory:
+Krispy Kreme: Estimated=10, Actual=8, Price=$80.00, Rating=4.90
+TBS Pizza: Estimated=10, Actual=8, Price=$150.00, Rating=4.28
+Starbucks: Estimated=15, Actual=12, Price=$100.00, Rating=4.65
+Paul Bakery: Estimated=12, Actual=9, Price=$90.00, Rating=4.72
+Costa Coffee: Estimated=8, Actual=6, Price=$85.00, Rating=4.38
+Greggs: Estimated=20, Actual=16, Price=$70.00, Rating=4.00
+Pizza Hut: Estimated=14, Actual=11, Price=$140.00, Rating=4.10
+Pret A Manger: Estimated=18, Actual=14, Price=$95.00, Rating=4.49
+Subway: Estimated=16, Actual=12, Price=$110.00, Rating=3.90
+Tim Hortons: Estimated=10, Actual=8, Price=$80.00, Rating=4.20
+Dunkin Donuts: Estimated=12, Actual=9, Price=$75.00, Rating=4.35
+Domino's Pizza: Estimated=15, Actual=12, Price=$130.00, Rating=4.00
+Cinnabon: Estimated=9, Actual=7, Price=$85.00, Rating=4.43
+Caribou Coffee: Estimated=11, Actual=8, Price=$90.00, Rating=4.10
+Panera Bread: Estimated=13, Actual=10, Price=$95.00, Rating=4.20
+
+Total Reservations Made: 76
+Processing end of day...
+
+=== RATING CHANGES (Dynamic Ratings) ===
+Krispy Kreme: 4.90 -> 4.88 (-0.02) [Confirmed: 8, Cancelled: 2]
+TBS Pizza: 4.28 -> 4.26 (-0.02) [Confirmed: 8, Cancelled: 2]
+Starbucks: 4.65 -> 4.62 (-0.03) [Confirmed: 12, Cancelled: 3]
+Paul Bakery: 4.72 -> 4.66 (-0.06) [Confirmed: 9, Cancelled: 3]
+Costa Coffee: 4.38 -> 4.34 (-0.04) [Confirmed: 6, Cancelled: 2]
+Greggs: 4.00 -> 4.00 (+0.00) [Confirmed: 0, Cancelled: 0]
+Pizza Hut: 4.10 -> 4.10 (+0.00) [Confirmed: 0, Cancelled: 0]
+Pret A Manger: 4.49 -> 4.56 (+0.07) [Confirmed: 7, Cancelled: 0]
+Subway: 3.90 -> 3.90 (+0.00) [Confirmed: 0, Cancelled: 0]
+Tim Hortons: 4.20 -> 4.20 (+0.00) [Confirmed: 0, Cancelled: 0]
+Dunkin Donuts: 4.35 -> 4.44 (+0.09) [Confirmed: 9, Cancelled: 0]
+Domino's Pizza: 4.00 -> 4.00 (+0.00) [Confirmed: 0, Cancelled: 0]
+Cinnabon: 4.43 -> 4.48 (+0.05) [Confirmed: 5, Cancelled: 0]
+Caribou Coffee: 4.10 -> 4.10 (+0.00) [Confirmed: 0, Cancelled: 0]
+Panera Bread: 4.20 -> 4.20 (+0.00) [Confirmed: 0, Cancelled: 0]
+
+Day 2 Summary:
+  Bags Sold: 73
+  Waste: 77
+  Revenue: $6960.00
+
+----------------------------------------------------------------------
+DAY 3 of 7
+----------------------------------------------------------------------
+
+=== Starting Day Simulation (BASELINE Algorithm) ===
+Number of customers: 100
+Number of stores: 15
+
+Initial Store Inventory:
+Krispy Kreme: Estimated=10, Actual=9, Price=$80.00, Rating=4.88
+TBS Pizza: Estimated=10, Actual=9, Price=$150.00, Rating=4.26
+Starbucks: Estimated=15, Actual=14, Price=$100.00, Rating=4.62
+Paul Bakery: Estimated=12, Actual=11, Price=$90.00, Rating=4.66
+Costa Coffee: Estimated=8, Actual=7, Price=$85.00, Rating=4.34
+Greggs: Estimated=20, Actual=19, Price=$70.00, Rating=4.00
+Pizza Hut: Estimated=14, Actual=13, Price=$140.00, Rating=4.10
+Pret A Manger: Estimated=18, Actual=17, Price=$95.00, Rating=4.56
+Subway: Estimated=16, Actual=15, Price=$110.00, Rating=3.90
+Tim Hortons: Estimated=10, Actual=9, Price=$80.00, Rating=4.20
+Dunkin Donuts: Estimated=12, Actual=11, Price=$75.00, Rating=4.44
+Domino's Pizza: Estimated=15, Actual=14, Price=$130.00, Rating=4.00
+Cinnabon: Estimated=9, Actual=8, Price=$85.00, Rating=4.48
+Caribou Coffee: Estimated=11, Actual=10, Price=$90.00, Rating=4.10
+Panera Bread: Estimated=13, Actual=12, Price=$95.00, Rating=4.20
+
+Total Reservations Made: 85
+Processing end of day...
+
+=== RATING CHANGES (Dynamic Ratings) ===
+Krispy Kreme: 4.88 -> 4.92 (+0.04) [Confirmed: 9, Cancelled: 1]
+TBS Pizza: 4.26 -> 4.30 (+0.04) [Confirmed: 9, Cancelled: 1]
+Starbucks: 4.62 -> 4.71 (+0.09) [Confirmed: 14, Cancelled: 1]
+Paul Bakery: 4.66 -> 4.72 (+0.06) [Confirmed: 11, Cancelled: 1]
+Costa Coffee: 4.34 -> 4.36 (+0.02) [Confirmed: 7, Cancelled: 1]
+Greggs: 4.00 -> 4.00 (+0.00) [Confirmed: 0, Cancelled: 0]
+Pizza Hut: 4.10 -> 4.11 (+0.01) [Confirmed: 1, Cancelled: 0]
+Pret A Manger: 4.56 -> 4.68 (+0.12) [Confirmed: 12, Cancelled: 0]
+Subway: 3.90 -> 3.90 (+0.00) [Confirmed: 0, Cancelled: 0]
+Tim Hortons: 4.20 -> 4.21 (+0.01) [Confirmed: 1, Cancelled: 0]
+Dunkin Donuts: 4.44 -> 4.50 (+0.06) [Confirmed: 11, Cancelled: 1]
+Domino's Pizza: 4.00 -> 4.00 (+0.00) [Confirmed: 0, Cancelled: 0]
+Cinnabon: 4.48 -> 4.52 (+0.04) [Confirmed: 4, Cancelled: 0]
+Caribou Coffee: 4.10 -> 4.10 (+0.00) [Confirmed: 0, Cancelled: 0]
+Panera Bread: 4.20 -> 4.20 (+0.00) [Confirmed: 0, Cancelled: 0]
+
+Day 3 Summary:
+  Bags Sold: 92
+  Waste: 86
+  Revenue: $8835.00
+
+----------------------------------------------------------------------
+DAY 4 of 7
+----------------------------------------------------------------------
+
+=== Starting Day Simulation (BASELINE Algorithm) ===
+Number of customers: 100
+Number of stores: 15
+
+Initial Store Inventory:
+Krispy Kreme: Estimated=10, Actual=11, Price=$80.00, Rating=4.92
+TBS Pizza: Estimated=10, Actual=11, Price=$150.00, Rating=4.30
+Starbucks: Estimated=15, Actual=17, Price=$100.00, Rating=4.71
+Paul Bakery: Estimated=12, Actual=13, Price=$90.00, Rating=4.72
+Costa Coffee: Estimated=8, Actual=9, Price=$85.00, Rating=4.36
+Greggs: Estimated=20, Actual=23, Price=$70.00, Rating=4.00
+Pizza Hut: Estimated=14, Actual=16, Price=$140.00, Rating=4.11
+Pret A Manger: Estimated=18, Actual=20, Price=$95.00, Rating=4.68
+Subway: Estimated=16, Actual=18, Price=$110.00, Rating=3.90
+Tim Hortons: Estimated=10, Actual=11, Price=$80.00, Rating=4.21
+Dunkin Donuts: Estimated=12, Actual=13, Price=$75.00, Rating=4.50
+Domino's Pizza: Estimated=15, Actual=17, Price=$130.00, Rating=4.00
+Cinnabon: Estimated=9, Actual=10, Price=$85.00, Rating=4.52
+Caribou Coffee: Estimated=11, Actual=12, Price=$90.00, Rating=4.10
+Panera Bread: Estimated=13, Actual=14, Price=$95.00, Rating=4.20
+
+Total Reservations Made: 88
+Processing end of day...
+
+=== RATING CHANGES (Dynamic Ratings) ===
+Krispy Kreme: 4.92 -> 5.00 (+0.08) [Confirmed: 10, Cancelled: 0]
+TBS Pizza: 4.30 -> 4.40 (+0.10) [Confirmed: 10, Cancelled: 0]
+Starbucks: 4.71 -> 4.86 (+0.15) [Confirmed: 15, Cancelled: 0]
+Paul Bakery: 4.72 -> 4.84 (+0.12) [Confirmed: 12, Cancelled: 0]
+Costa Coffee: 4.36 -> 4.44 (+0.08) [Confirmed: 8, Cancelled: 0]
+Greggs: 4.00 -> 4.00 (+0.00) [Confirmed: 0, Cancelled: 0]
+Pizza Hut: 4.11 -> 4.11 (+0.00) [Confirmed: 0, Cancelled: 0]
+Pret A Manger: 4.68 -> 4.81 (+0.13) [Confirmed: 13, Cancelled: 0]
+Subway: 3.90 -> 3.90 (+0.00) [Confirmed: 0, Cancelled: 0]
+Tim Hortons: 4.21 -> 4.22 (+0.01) [Confirmed: 1, Cancelled: 0]
+Dunkin Donuts: 4.50 -> 4.61 (+0.11) [Confirmed: 11, Cancelled: 0]
+Domino's Pizza: 4.00 -> 4.00 (+0.00) [Confirmed: 0, Cancelled: 0]
+Cinnabon: 4.52 -> 4.60 (+0.08) [Confirmed: 8, Cancelled: 0]
+Caribou Coffee: 4.10 -> 4.10 (+0.00) [Confirmed: 0, Cancelled: 0]
+Panera Bread: 4.20 -> 4.20 (+0.00) [Confirmed: 0, Cancelled: 0]
+
+Day 4 Summary:
+  Bags Sold: 107
+  Waste: 108
+  Revenue: $10130.00
+
+----------------------------------------------------------------------
+DAY 5 of 7
+----------------------------------------------------------------------
+
+=== Starting Day Simulation (BASELINE Algorithm) ===
+Number of customers: 100
+Number of stores: 15
+
+Initial Store Inventory:
+Krispy Kreme: Estimated=10, Actual=8, Price=$80.00, Rating=5.00
+TBS Pizza: Estimated=10, Actual=8, Price=$150.00, Rating=4.40
+Starbucks: Estimated=15, Actual=13, Price=$100.00, Rating=4.86
+Paul Bakery: Estimated=12, Actual=10, Price=$90.00, Rating=4.84
+Costa Coffee: Estimated=8, Actual=6, Price=$85.00, Rating=4.44
+Greggs: Estimated=20, Actual=17, Price=$70.00, Rating=4.00
+Pizza Hut: Estimated=14, Actual=12, Price=$140.00, Rating=4.11
+Pret A Manger: Estimated=18, Actual=15, Price=$95.00, Rating=4.81
+Subway: Estimated=16, Actual=13, Price=$110.00, Rating=3.90
+Tim Hortons: Estimated=10, Actual=8, Price=$80.00, Rating=4.22
+Dunkin Donuts: Estimated=12, Actual=10, Price=$75.00, Rating=4.61
+Domino's Pizza: Estimated=15, Actual=13, Price=$130.00, Rating=4.00
+Cinnabon: Estimated=9, Actual=7, Price=$85.00, Rating=4.60
+Caribou Coffee: Estimated=11, Actual=9, Price=$90.00, Rating=4.10
+Panera Bread: Estimated=13, Actual=11, Price=$95.00, Rating=4.20
+
+Total Reservations Made: 92
+Processing end of day...
+
+=== RATING CHANGES (Dynamic Ratings) ===
+Krispy Kreme: 5.00 -> 4.90 (-0.10) [Confirmed: 8, Cancelled: 2]
+TBS Pizza: 4.40 -> 4.38 (-0.02) [Confirmed: 8, Cancelled: 2]
+Starbucks: 4.86 -> 4.89 (+0.03) [Confirmed: 13, Cancelled: 2]
+Paul Bakery: 4.84 -> 4.84 (+0.00) [Confirmed: 10, Cancelled: 2]
+Costa Coffee: 4.44 -> 4.40 (-0.04) [Confirmed: 6, Cancelled: 2]
+Greggs: 4.00 -> 4.00 (+0.00) [Confirmed: 0, Cancelled: 0]
+Pizza Hut: 4.11 -> 4.14 (+0.03) [Confirmed: 3, Cancelled: 0]
+Pret A Manger: 4.81 -> 4.86 (+0.05) [Confirmed: 15, Cancelled: 2]
+Subway: 3.90 -> 3.90 (+0.00) [Confirmed: 0, Cancelled: 0]
+Tim Hortons: 4.22 -> 4.23 (+0.01) [Confirmed: 1, Cancelled: 0]
+Dunkin Donuts: 4.61 -> 4.61 (+0.00) [Confirmed: 10, Cancelled: 2]
+Domino's Pizza: 4.00 -> 4.00 (+0.00) [Confirmed: 0, Cancelled: 0]
+Cinnabon: 4.60 -> 4.64 (+0.04) [Confirmed: 4, Cancelled: 0]
+Caribou Coffee: 4.10 -> 4.10 (+0.00) [Confirmed: 0, Cancelled: 0]
+Panera Bread: 4.20 -> 4.20 (+0.00) [Confirmed: 0, Cancelled: 0]
+
+Day 5 Summary:
+  Bags Sold: 89
+  Waste: 71
+  Revenue: $8820.00
+
+----------------------------------------------------------------------
+DAY 6 of 7
+----------------------------------------------------------------------
+
+=== Starting Day Simulation (BASELINE Algorithm) ===
+Number of customers: 100
+Number of stores: 15
+
+Initial Store Inventory:
+Krispy Kreme: Estimated=10, Actual=11, Price=$80.00, Rating=4.90
+TBS Pizza: Estimated=10, Actual=11, Price=$150.00, Rating=4.38
+Starbucks: Estimated=15, Actual=17, Price=$100.00, Rating=4.89
+Paul Bakery: Estimated=12, Actual=14, Price=$90.00, Rating=4.84
+Costa Coffee: Estimated=8, Actual=9, Price=$85.00, Rating=4.40
+Greggs: Estimated=20, Actual=23, Price=$70.00, Rating=4.00
+Pizza Hut: Estimated=14, Actual=16, Price=$140.00, Rating=4.14
+Pret A Manger: Estimated=18, Actual=21, Price=$95.00, Rating=4.86
+Subway: Estimated=16, Actual=19, Price=$110.00, Rating=3.90
+Tim Hortons: Estimated=10, Actual=11, Price=$80.00, Rating=4.23
+Dunkin Donuts: Estimated=12, Actual=14, Price=$75.00, Rating=4.61
+Domino's Pizza: Estimated=15, Actual=17, Price=$130.00, Rating=4.00
+Cinnabon: Estimated=9, Actual=10, Price=$85.00, Rating=4.64
+Caribou Coffee: Estimated=11, Actual=13, Price=$90.00, Rating=4.10
+Panera Bread: Estimated=13, Actual=15, Price=$95.00, Rating=4.20
+
+Total Reservations Made: 90
+Processing end of day...
+
+=== RATING CHANGES (Dynamic Ratings) ===
+Krispy Kreme: 4.90 -> 5.00 (+0.10) [Confirmed: 10, Cancelled: 0]
+TBS Pizza: 4.38 -> 4.48 (+0.10) [Confirmed: 10, Cancelled: 0]
+Starbucks: 4.89 -> 5.00 (+0.11) [Confirmed: 15, Cancelled: 0]
+Paul Bakery: 4.84 -> 4.96 (+0.12) [Confirmed: 12, Cancelled: 0]
+Costa Coffee: 4.40 -> 4.48 (+0.08) [Confirmed: 8, Cancelled: 0]
+Greggs: 4.00 -> 4.00 (+0.00) [Confirmed: 0, Cancelled: 0]
+Pizza Hut: 4.14 -> 4.15 (+0.01) [Confirmed: 1, Cancelled: 0]
+Pret A Manger: 4.86 -> 5.00 (+0.14) [Confirmed: 16, Cancelled: 0]
+Subway: 3.90 -> 3.90 (+0.00) [Confirmed: 0, Cancelled: 0]
+Tim Hortons: 4.23 -> 4.23 (+0.00) [Confirmed: 0, Cancelled: 0]
+Dunkin Donuts: 4.61 -> 4.73 (+0.12) [Confirmed: 12, Cancelled: 0]
+Domino's Pizza: 4.00 -> 4.00 (+0.00) [Confirmed: 0, Cancelled: 0]
+Cinnabon: 4.64 -> 4.70 (+0.06) [Confirmed: 6, Cancelled: 0]
+Caribou Coffee: 4.10 -> 4.10 (+0.00) [Confirmed: 0, Cancelled: 0]
+Panera Bread: 4.20 -> 4.20 (+0.00) [Confirmed: 0, Cancelled: 0]
+
+Day 6 Summary:
+  Bags Sold: 110
+  Waste: 111
+  Revenue: $10570.00
+
+----------------------------------------------------------------------
+DAY 7 of 7
+----------------------------------------------------------------------
+
+=== Starting Day Simulation (BASELINE Algorithm) ===
+Number of customers: 100
+Number of stores: 15
+
+Initial Store Inventory:
+Krispy Kreme: Estimated=10, Actual=11, Price=$80.00, Rating=5.00
+TBS Pizza: Estimated=10, Actual=11, Price=$150.00, Rating=4.48
+Starbucks: Estimated=15, Actual=17, Price=$100.00, Rating=5.00
+Paul Bakery: Estimated=12, Actual=14, Price=$90.00, Rating=4.96
+Costa Coffee: Estimated=8, Actual=9, Price=$85.00, Rating=4.48
+Greggs: Estimated=20, Actual=23, Price=$70.00, Rating=4.00
+Pizza Hut: Estimated=14, Actual=16, Price=$140.00, Rating=4.15
+Pret A Manger: Estimated=18, Actual=21, Price=$95.00, Rating=5.00
+Subway: Estimated=16, Actual=19, Price=$110.00, Rating=3.90
+Tim Hortons: Estimated=10, Actual=11, Price=$80.00, Rating=4.23
+Dunkin Donuts: Estimated=12, Actual=14, Price=$75.00, Rating=4.73
+Domino's Pizza: Estimated=15, Actual=17, Price=$130.00, Rating=4.00
+Cinnabon: Estimated=9, Actual=10, Price=$85.00, Rating=4.70
+Caribou Coffee: Estimated=11, Actual=13, Price=$90.00, Rating=4.10
+Panera Bread: Estimated=13, Actual=15, Price=$95.00, Rating=4.20
+
+Total Reservations Made: 95
+Processing end of day...
+
+=== RATING CHANGES (Dynamic Ratings) ===
+Krispy Kreme: 5.00 -> 5.00 (+0.00) [Confirmed: 10, Cancelled: 0]
+TBS Pizza: 4.48 -> 4.58 (+0.10) [Confirmed: 10, Cancelled: 0]
+Starbucks: 5.00 -> 5.00 (+0.00) [Confirmed: 15, Cancelled: 0]
+Paul Bakery: 4.96 -> 5.00 (+0.04) [Confirmed: 12, Cancelled: 0]
+Costa Coffee: 4.48 -> 4.56 (+0.08) [Confirmed: 8, Cancelled: 0]
+Greggs: 4.00 -> 4.00 (+0.00) [Confirmed: 0, Cancelled: 0]
+Pizza Hut: 4.15 -> 4.23 (+0.08) [Confirmed: 8, Cancelled: 0]
+Pret A Manger: 5.00 -> 5.00 (+0.00) [Confirmed: 16, Cancelled: 0]
+Subway: 3.90 -> 3.90 (+0.00) [Confirmed: 0, Cancelled: 0]
+Tim Hortons: 4.23 -> 4.24 (+0.01) [Confirmed: 1, Cancelled: 0]
+Dunkin Donuts: 4.73 -> 4.85 (+0.12) [Confirmed: 12, Cancelled: 0]
+Domino's Pizza: 4.00 -> 4.00 (+0.00) [Confirmed: 0, Cancelled: 0]
+Cinnabon: 4.70 -> 4.72 (+0.02) [Confirmed: 2, Cancelled: 0]
+Caribou Coffee: 4.10 -> 4.10 (+0.00) [Confirmed: 0, Cancelled: 0]
+Panera Bread: 4.20 -> 4.21 (+0.01) [Confirmed: 1, Cancelled: 0]
+
+Day 7 Summary:
+  Bags Sold: 125
+  Waste: 96
+  Revenue: $12575.00
+
+======================================================================
+=== 7-DAY SIMULATION COMPLETE ===
+======================================================================
+
+====================================================================================================
+BASELINE ALGORITHM RESULTS
+====================================================================================================
+
+========================================
+=== SIMULATION METRICS SUMMARY ===
+========================================
+
+--- SALES METRICS ---
+Total Bags Sold: 697
+Total Bags Cancelled: 32
+Total Bags Unsold (Waste): 657
+
+--- REVENUE METRICS ---
+Total Revenue Generated: $67510.00
+Revenue Lost (from cancellations): $3130.00
+Revenue Efficiency: 95.57%
+
+--- CUSTOMER METRICS ---
+Total Customer Arrivals: 700
+Customers Who Left (No Purchase): 104
+Conversion Rate: 85.14%
+
+--- FAIRNESS METRICS ---
+Gini Coefficient (Exposure): 0.5083
+  (0 = perfect equality, 1 = maximum inequality)
+
+========================================
+
+====================================================================================================
+SIMULATION: SAMA ALGORITHM
+====================================================================================================
+
+======================================================================
+=== Starting 7-Day Simulation (SAMA Algorithm) ===
+Number of customers per day: 100
+Number of stores: 15
+======================================================================
+
+----------------------------------------------------------------------
+DAY 1 of 7
+----------------------------------------------------------------------
+
+=== Starting Day Simulation (SAMA Algorithm) ===
+Number of customers: 100
+Number of stores: 15
+
+Initial Store Inventory:
+Krispy Kreme: Estimated=10, Actual=11, Price=$80.0000, Rating=4.80
+TBS Pizza: Estimated=10, Actual=11, Price=$150.00, Rating=4.20
+Starbucks: Estimated=15, Actual=16, Price=$100.00, Rating=4.50
+Paul Bakery: Estimated=12, Actual=13, Price=$90.00, Rating=4.60
+Costa Coffee: Estimated=8, Actual=8, Price=$85.00, Rating=4.30
+Greggs: Estimated=20, Actual=22, Price=$70.00, Rating=4.00
+Pizza Hut: Estimated=14, Actual=15, Price=$140.00, Rating=4.10
+Pret A Manger: Estimated=18, Actual=20, Price=$95.00, Rating=4.40
+Subway: Estimated=16, Actual=17, Price=$110.00, Rating=3.90
+Tim Hortons: Estimated=10, Actual=11, Price=$80.00, Rating=4.20
+Dunkin Donuts: Estimated=12, Actual=13, Price=$75.00, Rating=4.30
+Domino's Pizza: Estimated=15, Actual=16, Price=$130.00, Rating=4.00
+Cinnabon: Estimated=9, Actual=10, Price=$85.00, Rating=4.40
+Caribou Coffee: Estimated=11, Actual=12, Price=$90.00, Rating=4.10
+Panera Bread: Estimated=13, Actual=14, Price=$95.00, Rating=4.20
+
+Total Reservations Made: 70
+Processing end of day...
+
+=== RATING CHANGES (Dynamic Ratings) ===
+Krispy Kreme: 4.80 -> 4.90 (+0.10) [Confirmed: 10, Cancelled: 0]
+TBS Pizza: 4.20 -> 4.24 (+0.04) [Confirmed: 4, Cancelled: 0]
+Starbucks: 4.50 -> 4.64 (+0.14) [Confirmed: 14, Cancelled: 0]
+Paul Bakery: 4.60 -> 4.72 (+0.12) [Confirmed: 12, Cancelled: 0]
+Costa Coffee: 4.30 -> 4.35 (+0.05) [Confirmed: 5, Cancelled: 0]
+Greggs: 4.00 -> 4.07 (+0.07) [Confirmed: 7, Cancelled: 0]
+Pizza Hut: 4.10 -> 4.14 (+0.04) [Confirmed: 4, Cancelled: 0]
+Pret A Manger: 4.40 -> 4.44 (+0.04) [Confirmed: 4, Cancelled: 0]
+Subway: 3.90 -> 3.90 (+0.00) [Confirmed: 0, Cancelled: 0]
+Tim Hortons: 4.20 -> 4.21 (+0.01) [Confirmed: 1, Cancelled: 0]
+Dunkin Donuts: 4.30 -> 4.36 (+0.06) [Confirmed: 6, Cancelled: 0]
+Domino's Pizza: 4.00 -> 4.00 (+0.00) [Confirmed: 0, Cancelled: 0]
+Cinnabon: 4.40 -> 4.41 (+0.01) [Confirmed: 1, Cancelled: 0]
+Caribou Coffee: 4.10 -> 4.11 (+0.01) [Confirmed: 1, Cancelled: 0]
+Panera Bread: 4.20 -> 4.21 (+0.01) [Confirmed: 1, Cancelled: 0]
+
+Day 1 Summary:
+  Bags Sold: 129
+  Waste: 80
+  Revenue: $12295.00
+
+----------------------------------------------------------------------
+DAY 2 of 7
+----------------------------------------------------------------------
+
+=== Starting Day Simulation (SAMA Algorithm) ===
+Number of customers: 100
+Number of stores: 15
+
+Initial Store Inventory:
+Krispy Kreme: Estimated=10, Actual=8, Price=$80.00, Rating=4.90
+TBS Pizza: Estimated=10, Actual=8, Price=$150.00, Rating=4.24
+Starbucks: Estimated=15, Actual=12, Price=$100.00, Rating=4.64
+Paul Bakery: Estimated=12, Actual=9, Price=$90.00, Rating=4.72
+Costa Coffee: Estimated=8, Actual=6, Price=$85.00, Rating=4.35
+Greggs: Estimated=20, Actual=16, Price=$70.00, Rating=4.07
+Pizza Hut: Estimated=14, Actual=11, Price=$140.00, Rating=4.14
+Pret A Manger: Estimated=18, Actual=14, Price=$95.00, Rating=4.44
+Subway: Estimated=16, Actual=12, Price=$110.00, Rating=3.90
+Tim Hortons: Estimated=10, Actual=8, Price=$80.00, Rating=4.21
+Dunkin Donuts: Estimated=12, Actual=9, Price=$75.00, Rating=4.36
+Domino's Pizza: Estimated=15, Actual=12, Price=$130.00, Rating=4.00
+Cinnabon: Estimated=9, Actual=7, Price=$85.00, Rating=4.41
+Caribou Coffee: Estimated=11, Actual=8, Price=$90.00, Rating=4.11
+Panera Bread: Estimated=13, Actual=10, Price=$95.00, Rating=4.21
+
+Total Reservations Made: 87
+Processing end of day...
+
+=== RATING CHANGES (Dynamic Ratings) ===
+Krispy Kreme: 4.90 -> 4.88 (-0.02) [Confirmed: 8, Cancelled: 2]
+TBS Pizza: 4.24 -> 4.30 (+0.06) [Confirmed: 6, Cancelled: 0]
+Starbucks: 4.64 -> 4.61 (-0.03) [Confirmed: 12, Cancelled: 3]
+Paul Bakery: 4.72 -> 4.66 (-0.06) [Confirmed: 9, Cancelled: 3]
+Costa Coffee: 4.35 -> 4.31 (-0.04) [Confirmed: 6, Cancelled: 2]
+Greggs: 4.07 -> 4.17 (+0.10) [Confirmed: 10, Cancelled: 0]
+Pizza Hut: 4.14 -> 4.22 (+0.08) [Confirmed: 8, Cancelled: 0]
+Pret A Manger: 4.44 -> 4.50 (+0.06) [Confirmed: 6, Cancelled: 0]
+Subway: 3.90 -> 3.92 (+0.02) [Confirmed: 2, Cancelled: 0]
+Tim Hortons: 4.21 -> 4.21 (+0.00) [Confirmed: 0, Cancelled: 0]
+Dunkin Donuts: 4.36 -> 4.43 (+0.07) [Confirmed: 7, Cancelled: 0]
+Domino's Pizza: 4.00 -> 4.00 (+0.00) [Confirmed: 0, Cancelled: 0]
+Cinnabon: 4.41 -> 4.41 (+0.00) [Confirmed: 0, Cancelled: 0]
+Caribou Coffee: 4.11 -> 4.12 (+0.01) [Confirmed: 1, Cancelled: 0]
+Panera Bread: 4.21 -> 4.23 (+0.02) [Confirmed: 2, Cancelled: 0]
+
+Day 2 Summary:
+  Bags Sold: 108
+  Waste: 42
+  Revenue: $10525.00
+
+----------------------------------------------------------------------
+DAY 3 of 7
+----------------------------------------------------------------------
+
+=== Starting Day Simulation (SAMA Algorithm) ===
+Number of customers: 100
+Number of stores: 15
+
+Initial Store Inventory:
+Krispy Kreme: Estimated=10, Actual=9, Price=$80.00, Rating=4.88
+TBS Pizza: Estimated=10, Actual=9, Price=$150.00, Rating=4.30
+Starbucks: Estimated=15, Actual=14, Price=$100.00, Rating=4.61
+Paul Bakery: Estimated=12, Actual=11, Price=$90.00, Rating=4.66
+Costa Coffee: Estimated=8, Actual=7, Price=$85.00, Rating=4.31
+Greggs: Estimated=20, Actual=19, Price=$70.00, Rating=4.17
+Pizza Hut: Estimated=14, Actual=13, Price=$140.00, Rating=4.22
+Pret A Manger: Estimated=18, Actual=17, Price=$95.00, Rating=4.50
+Subway: Estimated=16, Actual=15, Price=$110.00, Rating=3.92
+Tim Hortons: Estimated=10, Actual=9, Price=$80.00, Rating=4.21
+Dunkin Donuts: Estimated=12, Actual=11, Price=$75.00, Rating=4.43
+Domino's Pizza: Estimated=15, Actual=14, Price=$130.00, Rating=4.00
+Cinnabon: Estimated=9, Actual=8, Price=$85.00, Rating=4.41
+Caribou Coffee: Estimated=11, Actual=10, Price=$90.00, Rating=4.12
+Panera Bread: Estimated=13, Actual=12, Price=$95.00, Rating=4.23
+
+Total Reservations Made: 93
+Processing end of day...
+
+=== RATING CHANGES (Dynamic Ratings) ===
+Krispy Kreme: 4.88 -> 4.92 (+0.04) [Confirmed: 9, Cancelled: 1]
+TBS Pizza: 4.30 -> 4.38 (+0.08) [Confirmed: 8, Cancelled: 0]
+Starbucks: 4.61 -> 4.70 (+0.09) [Confirmed: 14, Cancelled: 1]
+Paul Bakery: 4.66 -> 4.72 (+0.06) [Confirmed: 11, Cancelled: 1]
+Costa Coffee: 4.31 -> 4.33 (+0.02) [Confirmed: 7, Cancelled: 1]
+Greggs: 4.17 -> 4.31 (+0.14) [Confirmed: 14, Cancelled: 0]
+Pizza Hut: 4.22 -> 4.32 (+0.10) [Confirmed: 10, Cancelled: 0]
+Pret A Manger: 4.50 -> 4.55 (+0.05) [Confirmed: 5, Cancelled: 0]
+Subway: 3.92 -> 3.95 (+0.03) [Confirmed: 3, Cancelled: 0]
+Tim Hortons: 4.21 -> 4.21 (+0.00) [Confirmed: 0, Cancelled: 0]
+Dunkin Donuts: 4.43 -> 4.47 (+0.04) [Confirmed: 4, Cancelled: 0]
+Domino's Pizza: 4.00 -> 4.00 (+0.00) [Confirmed: 0, Cancelled: 0]
+Cinnabon: 4.41 -> 4.44 (+0.03) [Confirmed: 3, Cancelled: 0]
+Caribou Coffee: 4.12 -> 4.12 (+0.00) [Confirmed: 0, Cancelled: 0]
+Panera Bread: 4.23 -> 4.24 (+0.01) [Confirmed: 1, Cancelled: 0]
+
+Day 3 Summary:
+  Bags Sold: 128
+  Waste: 50
+  Revenue: $12410.00
+
+----------------------------------------------------------------------
+DAY 4 of 7
+----------------------------------------------------------------------
+
+=== Starting Day Simulation (SAMA Algorithm) ===
+Number of customers: 100
+Number of stores: 15
+
+Initial Store Inventory:
+Krispy Kreme: Estimated=10, Actual=11, Price=$80.00, Rating=4.92
+TBS Pizza: Estimated=10, Actual=11, Price=$150.00, Rating=4.38
+Starbucks: Estimated=15, Actual=17, Price=$100.00, Rating=4.70
+Paul Bakery: Estimated=12, Actual=13, Price=$90.00, Rating=4.72
+Costa Coffee: Estimated=8, Actual=9, Price=$85.00, Rating=4.33
+Greggs: Estimated=20, Actual=23, Price=$70.00, Rating=4.31
+Pizza Hut: Estimated=14, Actual=16, Price=$140.00, Rating=4.32
+Pret A Manger: Estimated=18, Actual=20, Price=$95.00, Rating=4.55
+Subway: Estimated=16, Actual=18, Price=$110.00, Rating=3.95
+Tim Hortons: Estimated=10, Actual=11, Price=$80.00, Rating=4.21
+Dunkin Donuts: Estimated=12, Actual=13, Price=$75.00, Rating=4.47
+Domino's Pizza: Estimated=15, Actual=17, Price=$130.00, Rating=4.00
+Cinnabon: Estimated=9, Actual=10, Price=$85.00, Rating=4.44
+Caribou Coffee: Estimated=11, Actual=12, Price=$90.00, Rating=4.12
+Panera Bread: Estimated=13, Actual=14, Price=$95.00, Rating=4.24
+
+Total Reservations Made: 96
+Processing end of day...
+
+=== RATING CHANGES (Dynamic Ratings) ===
+Krispy Kreme: 4.92 -> 5.00 (+0.08) [Confirmed: 10, Cancelled: 0]
+TBS Pizza: 4.38 -> 4.46 (+0.08) [Confirmed: 8, Cancelled: 0]
+Starbucks: 4.70 -> 4.85 (+0.15) [Confirmed: 15, Cancelled: 0]
+Paul Bakery: 4.72 -> 4.84 (+0.12) [Confirmed: 12, Cancelled: 0]
+Costa Coffee: 4.33 -> 4.41 (+0.08) [Confirmed: 8, Cancelled: 0]
+Greggs: 4.31 -> 4.45 (+0.14) [Confirmed: 14, Cancelled: 0]
+Pizza Hut: 4.32 -> 4.46 (+0.14) [Confirmed: 14, Cancelled: 0]
+Pret A Manger: 4.55 -> 4.59 (+0.04) [Confirmed: 4, Cancelled: 0]
+Subway: 3.95 -> 3.99 (+0.04) [Confirmed: 4, Cancelled: 0]
+Tim Hortons: 4.21 -> 4.21 (+0.00) [Confirmed: 0, Cancelled: 0]
+Dunkin Donuts: 4.47 -> 4.50 (+0.03) [Confirmed: 3, Cancelled: 0]
+Domino's Pizza: 4.00 -> 4.00 (+0.00) [Confirmed: 0, Cancelled: 0]
+Cinnabon: 4.44 -> 4.47 (+0.03) [Confirmed: 3, Cancelled: 0]
+Caribou Coffee: 4.12 -> 4.12 (+0.00) [Confirmed: 0, Cancelled: 0]
+Panera Bread: 4.24 -> 4.25 (+0.01) [Confirmed: 1, Cancelled: 0]
+
+Day 4 Summary:
+  Bags Sold: 145
+  Waste: 70
+  Revenue: $14200.00
+
+----------------------------------------------------------------------
+DAY 5 of 7
+----------------------------------------------------------------------
+
+=== Starting Day Simulation (SAMA Algorithm) ===
+Number of customers: 100
+Number of stores: 15
+
+Initial Store Inventory:
+Krispy Kreme: Estimated=10, Actual=8, Price=$80.00, Rating=5.00
+TBS Pizza: Estimated=10, Actual=8, Price=$150.00, Rating=4.46
+Starbucks: Estimated=15, Actual=13, Price=$100.00, Rating=4.85
+Paul Bakery: Estimated=12, Actual=10, Price=$90.00, Rating=4.84
+Costa Coffee: Estimated=8, Actual=6, Price=$85.00, Rating=4.41
+Greggs: Estimated=20, Actual=17, Price=$70.00, Rating=4.45
+Pizza Hut: Estimated=14, Actual=12, Price=$140.00, Rating=4.46
+Pret A Manger: Estimated=18, Actual=15, Price=$95.00, Rating=4.59
+Subway: Estimated=16, Actual=13, Price=$110.00, Rating=3.99
+Tim Hortons: Estimated=10, Actual=8, Price=$80.00, Rating=4.21
+Dunkin Donuts: Estimated=12, Actual=10, Price=$75.00, Rating=4.50
+Domino's Pizza: Estimated=15, Actual=13, Price=$130.00, Rating=4.00
+Cinnabon: Estimated=9, Actual=7, Price=$85.00, Rating=4.47
+Caribou Coffee: Estimated=11, Actual=9, Price=$90.00, Rating=4.12
+Panera Bread: Estimated=13, Actual=11, Price=$95.00, Rating=4.25
+
+Total Reservations Made: 99
+Processing end of day...
+
+=== RATING CHANGES (Dynamic Ratings) ===
+Krispy Kreme: 5.00 -> 4.90 (-0.10) [Confirmed: 8, Cancelled: 2]
+TBS Pizza: 4.46 -> 4.49 (+0.03) [Confirmed: 8, Cancelled: 1]
+Starbucks: 4.85 -> 4.88 (+0.03) [Confirmed: 13, Cancelled: 2]
+Paul Bakery: 4.84 -> 4.84 (+0.00) [Confirmed: 10, Cancelled: 2]
+Costa Coffee: 4.41 -> 4.37 (-0.04) [Confirmed: 6, Cancelled: 2]
+Greggs: 4.45 -> 4.61 (+0.16) [Confirmed: 16, Cancelled: 0]
+Pizza Hut: 4.46 -> 4.53 (+0.07) [Confirmed: 7, Cancelled: 0]
+Pret A Manger: 4.59 -> 4.66 (+0.07) [Confirmed: 7, Cancelled: 0]
+Subway: 3.99 -> 4.05 (+0.06) [Confirmed: 6, Cancelled: 0]
+Tim Hortons: 4.21 -> 4.22 (+0.01) [Confirmed: 1, Cancelled: 0]
+Dunkin Donuts: 4.50 -> 4.55 (+0.05) [Confirmed: 5, Cancelled: 0]
+Domino's Pizza: 4.00 -> 4.00 (+0.00) [Confirmed: 0, Cancelled: 0]
+Cinnabon: 4.47 -> 4.49 (+0.02) [Confirmed: 2, Cancelled: 0]
+Caribou Coffee: 4.12 -> 4.12 (+0.00) [Confirmed: 0, Cancelled: 0]
+Panera Bread: 4.25 -> 4.26 (+0.01) [Confirmed: 1, Cancelled: 0]
+
+Day 5 Summary:
+  Bags Sold: 124
+  Waste: 36
+  Revenue: $12060.00
+
+----------------------------------------------------------------------
+DAY 6 of 7
+----------------------------------------------------------------------
+
+=== Starting Day Simulation (SAMA Algorithm) ===
+Number of customers: 100
+Number of stores: 15
+
+Initial Store Inventory:
+Krispy Kreme: Estimated=10, Actual=11, Price=$80.00, Rating=4.90
+TBS Pizza: Estimated=10, Actual=11, Price=$150.00, Rating=4.49
+Starbucks: Estimated=15, Actual=17, Price=$100.00, Rating=4.88
+Paul Bakery: Estimated=12, Actual=14, Price=$90.00, Rating=4.84
+Costa Coffee: Estimated=8, Actual=9, Price=$85.00, Rating=4.37
+Greggs: Estimated=20, Actual=23, Price=$70.00, Rating=4.61
+Pizza Hut: Estimated=14, Actual=16, Price=$140.00, Rating=4.53
+Pret A Manger: Estimated=18, Actual=21, Price=$95.00, Rating=4.66
+Subway: Estimated=16, Actual=19, Price=$110.00, Rating=4.05
+Tim Hortons: Estimated=10, Actual=11, Price=$80.00, Rating=4.22
+Dunkin Donuts: Estimated=12, Actual=14, Price=$75.00, Rating=4.55
+Domino's Pizza: Estimated=15, Actual=17, Price=$130.00, Rating=4.00
+Cinnabon: Estimated=9, Actual=10, Price=$85.00, Rating=4.49
+Caribou Coffee: Estimated=11, Actual=13, Price=$90.00, Rating=4.12
+Panera Bread: Estimated=13, Actual=15, Price=$95.00, Rating=4.26
+
+Total Reservations Made: 100
+Processing end of day...
+
+=== RATING CHANGES (Dynamic Ratings) ===
+Krispy Kreme: 4.90 -> 5.00 (+0.10) [Confirmed: 10, Cancelled: 0]
+TBS Pizza: 4.49 -> 4.57 (+0.08) [Confirmed: 8, Cancelled: 0]
+Starbucks: 4.88 -> 5.00 (+0.12) [Confirmed: 15, Cancelled: 0]
+Paul Bakery: 4.84 -> 4.96 (+0.12) [Confirmed: 12, Cancelled: 0]
+Costa Coffee: 4.37 -> 4.41 (+0.04) [Confirmed: 4, Cancelled: 0]
+Greggs: 4.61 -> 4.75 (+0.14) [Confirmed: 14, Cancelled: 0]
+Pizza Hut: 4.53 -> 4.67 (+0.14) [Confirmed: 14, Cancelled: 0]
+Pret A Manger: 4.66 -> 4.75 (+0.09) [Confirmed: 9, Cancelled: 0]
+Subway: 4.05 -> 4.08 (+0.03) [Confirmed: 3, Cancelled: 0]
+Tim Hortons: 4.22 -> 4.23 (+0.01) [Confirmed: 1, Cancelled: 0]
+Dunkin Donuts: 4.55 -> 4.62 (+0.07) [Confirmed: 7, Cancelled: 0]
+Domino's Pizza: 4.00 -> 4.00 (+0.00) [Confirmed: 0, Cancelled: 0]
+Cinnabon: 4.49 -> 4.52 (+0.03) [Confirmed: 3, Cancelled: 0]
+Caribou Coffee: 4.12 -> 4.12 (+0.00) [Confirmed: 0, Cancelled: 0]
+Panera Bread: 4.26 -> 4.26 (+0.00) [Confirmed: 0, Cancelled: 0]
+
+Day 6 Summary:
+  Bags Sold: 157
+  Waste: 64
+  Revenue: $15145.00
+
+----------------------------------------------------------------------
+DAY 7 of 7
+----------------------------------------------------------------------
+
+=== Starting Day Simulation (SAMA Algorithm) ===
+Number of customers: 100
+Number of stores: 15
+
+Initial Store Inventory:
+Krispy Kreme: Estimated=10, Actual=11, Price=$80.00, Rating=5.00
+TBS Pizza: Estimated=10, Actual=11, Price=$150.00, Rating=4.57
+Starbucks: Estimated=15, Actual=17, Price=$100.00, Rating=5.00
+Paul Bakery: Estimated=12, Actual=14, Price=$90.00, Rating=4.96
+Costa Coffee: Estimated=8, Actual=9, Price=$85.00, Rating=4.41
+Greggs: Estimated=20, Actual=23, Price=$70.00, Rating=4.75
+Pizza Hut: Estimated=14, Actual=16, Price=$140.00, Rating=4.67
+Pret A Manger: Estimated=18, Actual=21, Price=$95.00, Rating=4.75
+Subway: Estimated=16, Actual=19, Price=$110.00, Rating=4.08
+Tim Hortons: Estimated=10, Actual=11, Price=$80.00, Rating=4.23
+Dunkin Donuts: Estimated=12, Actual=14, Price=$75.00, Rating=4.62
+Domino's Pizza: Estimated=15, Actual=17, Price=$130.00, Rating=4.00
+Cinnabon: Estimated=9, Actual=10, Price=$85.00, Rating=4.52
+Caribou Coffee: Estimated=11, Actual=13, Price=$90.00, Rating=4.12
+Panera Bread: Estimated=13, Actual=15, Price=$95.00, Rating=4.26
+
+Total Reservations Made: 100
+Processing end of day...
+
+=== RATING CHANGES (Dynamic Ratings) ===
+Krispy Kreme: 5.00 -> 5.00 (+0.00) [Confirmed: 10, Cancelled: 0]
+TBS Pizza: 4.57 -> 4.66 (+0.09) [Confirmed: 9, Cancelled: 0]
+Starbucks: 5.00 -> 5.00 (+0.00) [Confirmed: 15, Cancelled: 0]
+Paul Bakery: 4.96 -> 5.00 (+0.04) [Confirmed: 12, Cancelled: 0]
+Costa Coffee: 4.41 -> 4.48 (+0.07) [Confirmed: 7, Cancelled: 0]
+Greggs: 4.75 -> 4.89 (+0.14) [Confirmed: 14, Cancelled: 0]
+Pizza Hut: 4.67 -> 4.78 (+0.11) [Confirmed: 11, Cancelled: 0]
+Pret A Manger: 4.75 -> 4.79 (+0.04) [Confirmed: 4, Cancelled: 0]
+Subway: 4.08 -> 4.13 (+0.05) [Confirmed: 5, Cancelled: 0]
+Tim Hortons: 4.23 -> 4.23 (+0.00) [Confirmed: 0, Cancelled: 0]
+Dunkin Donuts: 4.62 -> 4.71 (+0.09) [Confirmed: 9, Cancelled: 0]
+Domino's Pizza: 4.00 -> 4.00 (+0.00) [Confirmed: 0, Cancelled: 0]
+Cinnabon: 4.52 -> 4.55 (+0.03) [Confirmed: 3, Cancelled: 0]
+Caribou Coffee: 4.12 -> 4.12 (+0.00) [Confirmed: 0, Cancelled: 0]
+Panera Bread: 4.26 -> 4.27 (+0.01) [Confirmed: 1, Cancelled: 0]
+
+Day 7 Summary:
+  Bags Sold: 154
+  Waste: 67
+  Revenue: $14995.00
+
+======================================================================
+=== 7-DAY SIMULATION COMPLETE ===
+======================================================================
+
+====================================================================================================
+SAMA ALGORITHM RESULTS
+====================================================================================================
+
+========================================
+=== SIMULATION METRICS SUMMARY ===
+========================================
+
+--- SALES METRICS ---
+Total Bags Sold: 945
+Total Bags Cancelled: 23
+Total Bags Unsold (Waste): 409
+
+--- REVENUE METRICS ---
+Total Revenue Generated: $91630.00
+Revenue Lost (from cancellations): $2115.00
+Revenue Efficiency: 97.74%
+
+--- CUSTOMER METRICS ---
+Total Customer Arrivals: 700
+Customers Who Left (No Purchase): 55
+Conversion Rate: 92.14%
+
+--- FAIRNESS METRICS ---
+Gini Coefficient (Exposure): 0.4239
+  (0 = perfect equality, 1 = maximum inequality)
+
+========================================
+
+====================================================================================================
+SIMULATION: ANDREW ALGORITHM
+====================================================================================================
+
+======================================================================
+=== Starting 7-Day Simulation (ANDREW Algorithm) ===
+Number of customers per day: 100
+Number of stores: 15
+======================================================================
+
+----------------------------------------------------------------------
+DAY 1 of 7
+----------------------------------------------------------------------
+
+=== Starting Day Simulation (ANDREW Algorithm) ===
+Number of customers: 100
+Number of stores: 15
+
+Initial Store Inventory:
+Krispy Kreme: Estimated=10, Actual=11, Price=$80.0000, Rating=4.80
+TBS Pizza: Estimated=10, Actual=11, Price=$150.00, Rating=4.20
+Starbucks: Estimated=15, Actual=16, Price=$100.00, Rating=4.50
+Paul Bakery: Estimated=12, Actual=13, Price=$90.00, Rating=4.60
+Costa Coffee: Estimated=8, Actual=8, Price=$85.00, Rating=4.30
+Greggs: Estimated=20, Actual=22, Price=$70.00, Rating=4.00
+Pizza Hut: Estimated=14, Actual=15, Price=$140.00, Rating=4.10
+Pret A Manger: Estimated=18, Actual=20, Price=$95.00, Rating=4.40
+Subway: Estimated=16, Actual=17, Price=$110.00, Rating=3.90
+Tim Hortons: Estimated=10, Actual=11, Price=$80.00, Rating=4.20
+Dunkin Donuts: Estimated=12, Actual=13, Price=$75.00, Rating=4.30
+Domino's Pizza: Estimated=15, Actual=16, Price=$130.00, Rating=4.00
+Cinnabon: Estimated=9, Actual=10, Price=$85.00, Rating=4.40
+Caribou Coffee: Estimated=11, Actual=12, Price=$90.00, Rating=4.10
+Panera Bread: Estimated=13, Actual=14, Price=$95.00, Rating=4.20
+
+Total Reservations Made: 72
+Processing end of day...
+
+=== RATING CHANGES (Dynamic Ratings) ===
+Krispy Kreme: 4.80 -> 4.90 (+0.10) [Confirmed: 10, Cancelled: 0]
+TBS Pizza: 4.20 -> 4.28 (+0.08) [Confirmed: 8, Cancelled: 0]
+Starbucks: 4.50 -> 4.62 (+0.12) [Confirmed: 12, Cancelled: 0]
+Paul Bakery: 4.60 -> 4.72 (+0.12) [Confirmed: 12, Cancelled: 0]
+Costa Coffee: 4.30 -> 4.35 (+0.05) [Confirmed: 5, Cancelled: 0]
+Greggs: 4.00 -> 4.03 (+0.03) [Confirmed: 3, Cancelled: 0]
+Pizza Hut: 4.10 -> 4.15 (+0.05) [Confirmed: 5, Cancelled: 0]
+Pret A Manger: 4.40 -> 4.43 (+0.03) [Confirmed: 3, Cancelled: 0]
+Subway: 3.90 -> 3.95 (+0.05) [Confirmed: 5, Cancelled: 0]
+Tim Hortons: 4.20 -> 4.22 (+0.02) [Confirmed: 2, Cancelled: 0]
+Dunkin Donuts: 4.30 -> 4.32 (+0.02) [Confirmed: 2, Cancelled: 0]
+Domino's Pizza: 4.00 -> 4.00 (+0.00) [Confirmed: 0, Cancelled: 0]
+Cinnabon: 4.40 -> 4.45 (+0.05) [Confirmed: 5, Cancelled: 0]
+Caribou Coffee: 4.10 -> 4.10 (+0.00) [Confirmed: 0, Cancelled: 0]
+Panera Bread: 4.20 -> 4.20 (+0.00) [Confirmed: 0, Cancelled: 0]
+
+Day 1 Summary:
+  Bags Sold: 129
+  Waste: 80
+  Revenue: $12995.00
+
+----------------------------------------------------------------------
+DAY 2 of 7
+----------------------------------------------------------------------
+
+=== Starting Day Simulation (ANDREW Algorithm) ===
+Number of customers: 100
+Number of stores: 15
+
+Initial Store Inventory:
+Krispy Kreme: Estimated=10, Actual=8, Price=$80.00, Rating=4.90
+TBS Pizza: Estimated=10, Actual=8, Price=$150.00, Rating=4.28
+Starbucks: Estimated=15, Actual=12, Price=$100.00, Rating=4.62
+Paul Bakery: Estimated=12, Actual=9, Price=$90.00, Rating=4.72
+Costa Coffee: Estimated=8, Actual=6, Price=$85.00, Rating=4.35
+Greggs: Estimated=20, Actual=16, Price=$70.00, Rating=4.03
+Pizza Hut: Estimated=14, Actual=11, Price=$140.00, Rating=4.15
+Pret A Manger: Estimated=18, Actual=14, Price=$95.00, Rating=4.43
+Subway: Estimated=16, Actual=12, Price=$110.00, Rating=3.95
+Tim Hortons: Estimated=10, Actual=8, Price=$80.00, Rating=4.22
+Dunkin Donuts: Estimated=12, Actual=9, Price=$75.00, Rating=4.32
+Domino's Pizza: Estimated=15, Actual=12, Price=$130.00, Rating=4.00
+Cinnabon: Estimated=9, Actual=7, Price=$85.00, Rating=4.45
+Caribou Coffee: Estimated=11, Actual=8, Price=$90.00, Rating=4.10
+Panera Bread: Estimated=13, Actual=10, Price=$95.00, Rating=4.20
+
+Total Reservations Made: 89
+Processing end of day...
+
+=== RATING CHANGES (Dynamic Ratings) ===
+Krispy Kreme: 4.90 -> 4.88 (-0.02) [Confirmed: 8, Cancelled: 2]
+TBS Pizza: 4.28 -> 4.26 (-0.02) [Confirmed: 8, Cancelled: 2]
+Starbucks: 4.62 -> 4.59 (-0.03) [Confirmed: 12, Cancelled: 3]
+Paul Bakery: 4.72 -> 4.66 (-0.06) [Confirmed: 9, Cancelled: 3]
+Costa Coffee: 4.35 -> 4.31 (-0.04) [Confirmed: 6, Cancelled: 2]
+Greggs: 4.03 -> 4.08 (+0.05) [Confirmed: 5, Cancelled: 0]
+Pizza Hut: 4.15 -> 4.20 (+0.05) [Confirmed: 5, Cancelled: 0]
+Pret A Manger: 4.43 -> 4.49 (+0.06) [Confirmed: 6, Cancelled: 0]
+Subway: 3.95 -> 4.03 (+0.08) [Confirmed: 8, Cancelled: 0]
+Tim Hortons: 4.22 -> 4.24 (+0.02) [Confirmed: 2, Cancelled: 0]
+Dunkin Donuts: 4.32 -> 4.37 (+0.05) [Confirmed: 5, Cancelled: 0]
+Domino's Pizza: 4.00 -> 4.00 (+0.00) [Confirmed: 0, Cancelled: 0]
+Cinnabon: 4.45 -> 4.48 (+0.03) [Confirmed: 3, Cancelled: 0]
+Caribou Coffee: 4.10 -> 4.10 (+0.00) [Confirmed: 0, Cancelled: 0]
+Panera Bread: 4.20 -> 4.20 (+0.00) [Confirmed: 0, Cancelled: 0]
+
+Day 2 Summary:
+  Bags Sold: 117
+  Waste: 33
+  Revenue: $11350.00
+
+----------------------------------------------------------------------
+DAY 3 of 7
+----------------------------------------------------------------------
+
+=== Starting Day Simulation (ANDREW Algorithm) ===
+Number of customers: 100
+Number of stores: 15
+
+Initial Store Inventory:
+Krispy Kreme: Estimated=10, Actual=9, Price=$80.00, Rating=4.88
+TBS Pizza: Estimated=10, Actual=9, Price=$150.00, Rating=4.26
+Starbucks: Estimated=15, Actual=14, Price=$100.00, Rating=4.59
+Paul Bakery: Estimated=12, Actual=11, Price=$90.00, Rating=4.66
+Costa Coffee: Estimated=8, Actual=7, Price=$85.00, Rating=4.31
+Greggs: Estimated=20, Actual=19, Price=$70.00, Rating=4.08
+Pizza Hut: Estimated=14, Actual=13, Price=$140.00, Rating=4.20
+Pret A Manger: Estimated=18, Actual=17, Price=$95.00, Rating=4.49
+Subway: Estimated=16, Actual=15, Price=$110.00, Rating=4.03
+Tim Hortons: Estimated=10, Actual=9, Price=$80.00, Rating=4.24
+Dunkin Donuts: Estimated=12, Actual=11, Price=$75.00, Rating=4.37
+Domino's Pizza: Estimated=15, Actual=14, Price=$130.00, Rating=4.00
+Cinnabon: Estimated=9, Actual=8, Price=$85.00, Rating=4.48
+Caribou Coffee: Estimated=11, Actual=10, Price=$90.00, Rating=4.10
+Panera Bread: Estimated=13, Actual=12, Price=$95.00, Rating=4.20
+
+Total Reservations Made: 90
+Processing end of day...
+
+=== RATING CHANGES (Dynamic Ratings) ===
+Krispy Kreme: 4.88 -> 4.92 (+0.04) [Confirmed: 9, Cancelled: 1]
+TBS Pizza: 4.26 -> 4.33 (+0.07) [Confirmed: 7, Cancelled: 0]
+Starbucks: 4.59 -> 4.68 (+0.09) [Confirmed: 14, Cancelled: 1]
+Paul Bakery: 4.66 -> 4.72 (+0.06) [Confirmed: 11, Cancelled: 1]
+Costa Coffee: 4.31 -> 4.33 (+0.02) [Confirmed: 7, Cancelled: 1]
+Greggs: 4.08 -> 4.18 (+0.10) [Confirmed: 10, Cancelled: 0]
+Pizza Hut: 4.20 -> 4.29 (+0.09) [Confirmed: 9, Cancelled: 0]
+Pret A Manger: 4.49 -> 4.55 (+0.06) [Confirmed: 6, Cancelled: 0]
+Subway: 4.03 -> 4.06 (+0.03) [Confirmed: 3, Cancelled: 0]
+Tim Hortons: 4.24 -> 4.25 (+0.01) [Confirmed: 1, Cancelled: 0]
+Dunkin Donuts: 4.37 -> 4.42 (+0.05) [Confirmed: 5, Cancelled: 0]
+Domino's Pizza: 4.00 -> 4.00 (+0.00) [Confirmed: 0, Cancelled: 0]
+Cinnabon: 4.48 -> 4.52 (+0.04) [Confirmed: 4, Cancelled: 0]
+Caribou Coffee: 4.10 -> 4.10 (+0.00) [Confirmed: 0, Cancelled: 0]
+Panera Bread: 4.20 -> 4.20 (+0.00) [Confirmed: 0, Cancelled: 0]
+
+Day 3 Summary:
+  Bags Sold: 130
+  Waste: 48
+  Revenue: $12555.00
+
+----------------------------------------------------------------------
+DAY 4 of 7
+----------------------------------------------------------------------
+
+=== Starting Day Simulation (ANDREW Algorithm) ===
+Number of customers: 100
+Number of stores: 15
+
+Initial Store Inventory:
+Krispy Kreme: Estimated=10, Actual=11, Price=$80.00, Rating=4.92
+TBS Pizza: Estimated=10, Actual=11, Price=$150.00, Rating=4.33
+Starbucks: Estimated=15, Actual=17, Price=$100.00, Rating=4.68
+Paul Bakery: Estimated=12, Actual=13, Price=$90.00, Rating=4.72
+Costa Coffee: Estimated=8, Actual=9, Price=$85.00, Rating=4.33
+Greggs: Estimated=20, Actual=23, Price=$70.00, Rating=4.18
+Pizza Hut: Estimated=14, Actual=16, Price=$140.00, Rating=4.29
+Pret A Manger: Estimated=18, Actual=20, Price=$95.00, Rating=4.55
+Subway: Estimated=16, Actual=18, Price=$110.00, Rating=4.06
+Tim Hortons: Estimated=10, Actual=11, Price=$80.00, Rating=4.25
+Dunkin Donuts: Estimated=12, Actual=13, Price=$75.00, Rating=4.42
+Domino's Pizza: Estimated=15, Actual=17, Price=$130.00, Rating=4.00
+Cinnabon: Estimated=9, Actual=10, Price=$85.00, Rating=4.52
+Caribou Coffee: Estimated=11, Actual=12, Price=$90.00, Rating=4.10
+Panera Bread: Estimated=13, Actual=14, Price=$95.00, Rating=4.20
+
+Total Reservations Made: 96
+Processing end of day...
+
+=== RATING CHANGES (Dynamic Ratings) ===
+Krispy Kreme: 4.92 -> 5.00 (+0.08) [Confirmed: 10, Cancelled: 0]
+TBS Pizza: 4.33 -> 4.42 (+0.09) [Confirmed: 9, Cancelled: 0]
+Starbucks: 4.68 -> 4.83 (+0.15) [Confirmed: 15, Cancelled: 0]
+Paul Bakery: 4.72 -> 4.84 (+0.12) [Confirmed: 12, Cancelled: 0]
+Costa Coffee: 4.33 -> 4.41 (+0.08) [Confirmed: 8, Cancelled: 0]
+Greggs: 4.18 -> 4.28 (+0.10) [Confirmed: 10, Cancelled: 0]
+Pizza Hut: 4.29 -> 4.36 (+0.07) [Confirmed: 7, Cancelled: 0]
+Pret A Manger: 4.55 -> 4.61 (+0.06) [Confirmed: 6, Cancelled: 0]
+Subway: 4.06 -> 4.15 (+0.09) [Confirmed: 9, Cancelled: 0]
+Tim Hortons: 4.25 -> 4.28 (+0.03) [Confirmed: 3, Cancelled: 0]
+Dunkin Donuts: 4.42 -> 4.46 (+0.04) [Confirmed: 4, Cancelled: 0]
+Domino's Pizza: 4.00 -> 4.00 (+0.00) [Confirmed: 0, Cancelled: 0]
+Cinnabon: 4.52 -> 4.55 (+0.03) [Confirmed: 3, Cancelled: 0]
+Caribou Coffee: 4.10 -> 4.10 (+0.00) [Confirmed: 0, Cancelled: 0]
+Panera Bread: 4.20 -> 4.20 (+0.00) [Confirmed: 0, Cancelled: 0]
+
+Day 4 Summary:
+  Bags Sold: 166
+  Waste: 49
+  Revenue: $16090.00
+
+----------------------------------------------------------------------
+DAY 5 of 7
+----------------------------------------------------------------------
+
+=== Starting Day Simulation (ANDREW Algorithm) ===
+Number of customers: 100
+Number of stores: 15
+
+Initial Store Inventory:
+Krispy Kreme: Estimated=10, Actual=8, Price=$80.00, Rating=5.00
+TBS Pizza: Estimated=10, Actual=8, Price=$150.00, Rating=4.42
+Starbucks: Estimated=15, Actual=13, Price=$100.00, Rating=4.83
+Paul Bakery: Estimated=12, Actual=10, Price=$90.00, Rating=4.84
+Costa Coffee: Estimated=8, Actual=6, Price=$85.00, Rating=4.41
+Greggs: Estimated=20, Actual=17, Price=$70.00, Rating=4.28
+Pizza Hut: Estimated=14, Actual=12, Price=$140.00, Rating=4.36
+Pret A Manger: Estimated=18, Actual=15, Price=$95.00, Rating=4.61
+Subway: Estimated=16, Actual=13, Price=$110.00, Rating=4.15
+Tim Hortons: Estimated=10, Actual=8, Price=$80.00, Rating=4.28
+Dunkin Donuts: Estimated=12, Actual=10, Price=$75.00, Rating=4.46
+Domino's Pizza: Estimated=15, Actual=13, Price=$130.00, Rating=4.00
+Cinnabon: Estimated=9, Actual=7, Price=$85.00, Rating=4.55
+Caribou Coffee: Estimated=11, Actual=9, Price=$90.00, Rating=4.10
+Panera Bread: Estimated=13, Actual=11, Price=$95.00, Rating=4.20
+
+Total Reservations Made: 97
+Processing end of day...
+
+=== RATING CHANGES (Dynamic Ratings) ===
+Krispy Kreme: 5.00 -> 4.90 (-0.10) [Confirmed: 8, Cancelled: 2]
+TBS Pizza: 4.42 -> 4.40 (-0.02) [Confirmed: 8, Cancelled: 2]
+Starbucks: 4.83 -> 4.86 (+0.03) [Confirmed: 13, Cancelled: 2]
+Paul Bakery: 4.84 -> 4.84 (+0.00) [Confirmed: 10, Cancelled: 2]
+Costa Coffee: 4.41 -> 4.37 (-0.04) [Confirmed: 6, Cancelled: 2]
+Greggs: 4.28 -> 4.34 (+0.06) [Confirmed: 6, Cancelled: 0]
+Pizza Hut: 4.36 -> 4.43 (+0.07) [Confirmed: 12, Cancelled: 1]
+Pret A Manger: 4.61 -> 4.66 (+0.05) [Confirmed: 5, Cancelled: 0]
+Subway: 4.15 -> 4.21 (+0.06) [Confirmed: 6, Cancelled: 0]
+Tim Hortons: 4.28 -> 4.31 (+0.03) [Confirmed: 3, Cancelled: 0]
+Dunkin Donuts: 4.46 -> 4.52 (+0.06) [Confirmed: 6, Cancelled: 0]
+Domino's Pizza: 4.00 -> 4.01 (+0.01) [Confirmed: 1, Cancelled: 0]
+Cinnabon: 4.55 -> 4.57 (+0.02) [Confirmed: 2, Cancelled: 0]
+Caribou Coffee: 4.10 -> 4.10 (+0.00) [Confirmed: 0, Cancelled: 0]
+Panera Bread: 4.20 -> 4.20 (+0.00) [Confirmed: 0, Cancelled: 0]
+
+Day 5 Summary:
+  Bags Sold: 129
+  Waste: 31
+  Revenue: $12565.00
+
+----------------------------------------------------------------------
+DAY 6 of 7
+----------------------------------------------------------------------
+
+=== Starting Day Simulation (ANDREW Algorithm) ===
+Number of customers: 100
+Number of stores: 15
+
+Initial Store Inventory:
+Krispy Kreme: Estimated=10, Actual=11, Price=$80.00, Rating=4.90
+TBS Pizza: Estimated=10, Actual=11, Price=$150.00, Rating=4.40
+Starbucks: Estimated=15, Actual=17, Price=$100.00, Rating=4.86
+Paul Bakery: Estimated=12, Actual=14, Price=$90.00, Rating=4.84
+Costa Coffee: Estimated=8, Actual=9, Price=$85.00, Rating=4.37
+Greggs: Estimated=20, Actual=23, Price=$70.00, Rating=4.34
+Pizza Hut: Estimated=14, Actual=16, Price=$140.00, Rating=4.43
+Pret A Manger: Estimated=18, Actual=21, Price=$95.00, Rating=4.66
+Subway: Estimated=16, Actual=19, Price=$110.00, Rating=4.21
+Tim Hortons: Estimated=10, Actual=11, Price=$80.00, Rating=4.31
+Dunkin Donuts: Estimated=12, Actual=14, Price=$75.00, Rating=4.52
+Domino's Pizza: Estimated=15, Actual=17, Price=$130.00, Rating=4.01
+Cinnabon: Estimated=9, Actual=10, Price=$85.00, Rating=4.57
+Caribou Coffee: Estimated=11, Actual=13, Price=$90.00, Rating=4.10
+Panera Bread: Estimated=13, Actual=15, Price=$95.00, Rating=4.20
+
+Total Reservations Made: 98
+Processing end of day...
+
+=== RATING CHANGES (Dynamic Ratings) ===
+Krispy Kreme: 4.90 -> 5.00 (+0.10) [Confirmed: 10, Cancelled: 0]
+TBS Pizza: 4.40 -> 4.50 (+0.10) [Confirmed: 10, Cancelled: 0]
+Starbucks: 4.86 -> 5.00 (+0.14) [Confirmed: 15, Cancelled: 0]
+Paul Bakery: 4.84 -> 4.96 (+0.12) [Confirmed: 12, Cancelled: 0]
+Costa Coffee: 4.37 -> 4.45 (+0.08) [Confirmed: 8, Cancelled: 0]
+Greggs: 4.34 -> 4.46 (+0.12) [Confirmed: 12, Cancelled: 0]
+Pizza Hut: 4.43 -> 4.48 (+0.05) [Confirmed: 5, Cancelled: 0]
+Pret A Manger: 4.66 -> 4.73 (+0.07) [Confirmed: 7, Cancelled: 0]
+Subway: 4.21 -> 4.27 (+0.06) [Confirmed: 6, Cancelled: 0]
+Tim Hortons: 4.31 -> 4.32 (+0.01) [Confirmed: 1, Cancelled: 0]
+Dunkin Donuts: 4.52 -> 4.58 (+0.06) [Confirmed: 6, Cancelled: 0]
+Domino's Pizza: 4.01 -> 4.01 (+0.00) [Confirmed: 0, Cancelled: 0]
+Cinnabon: 4.57 -> 4.60 (+0.03) [Confirmed: 3, Cancelled: 0]
+Caribou Coffee: 4.10 -> 4.10 (+0.00) [Confirmed: 0, Cancelled: 0]
+Panera Bread: 4.20 -> 4.23 (+0.03) [Confirmed: 3, Cancelled: 0]
+
+Day 6 Summary:
+  Bags Sold: 174
+  Waste: 47
+  Revenue: $16850.00
+
+----------------------------------------------------------------------
+DAY 7 of 7
+----------------------------------------------------------------------
+
+=== Starting Day Simulation (ANDREW Algorithm) ===
+Number of customers: 100
+Number of stores: 15
+
+Initial Store Inventory:
+Krispy Kreme: Estimated=10, Actual=11, Price=$80.00, Rating=5.00
+TBS Pizza: Estimated=10, Actual=11, Price=$150.00, Rating=4.50
+Starbucks: Estimated=15, Actual=17, Price=$100.00, Rating=5.00
+Paul Bakery: Estimated=12, Actual=14, Price=$90.00, Rating=4.96
+Costa Coffee: Estimated=8, Actual=9, Price=$85.00, Rating=4.45
+Greggs: Estimated=20, Actual=23, Price=$70.00, Rating=4.46
+Pizza Hut: Estimated=14, Actual=16, Price=$140.00, Rating=4.48
+Pret A Manger: Estimated=18, Actual=21, Price=$95.00, Rating=4.73
+Subway: Estimated=16, Actual=19, Price=$110.00, Rating=4.27
+Tim Hortons: Estimated=10, Actual=11, Price=$80.00, Rating=4.32
+Dunkin Donuts: Estimated=12, Actual=14, Price=$75.00, Rating=4.58
+Domino's Pizza: Estimated=15, Actual=17, Price=$130.00, Rating=4.01
+Cinnabon: Estimated=9, Actual=10, Price=$85.00, Rating=4.60
+Caribou Coffee: Estimated=11, Actual=13, Price=$90.00, Rating=4.10
+Panera Bread: Estimated=13, Actual=15, Price=$95.00, Rating=4.23
+
+Total Reservations Made: 99
+Processing end of day...
+
+=== RATING CHANGES (Dynamic Ratings) ===
+Krispy Kreme: 5.00 -> 5.00 (+0.00) [Confirmed: 10, Cancelled: 0]
+TBS Pizza: 4.50 -> 4.59 (+0.09) [Confirmed: 9, Cancelled: 0]
+Starbucks: 5.00 -> 5.00 (+0.00) [Confirmed: 15, Cancelled: 0]
+Paul Bakery: 4.96 -> 5.00 (+0.04) [Confirmed: 12, Cancelled: 0]
+Costa Coffee: 4.45 -> 4.53 (+0.08) [Confirmed: 8, Cancelled: 0]
+Greggs: 4.46 -> 4.58 (+0.12) [Confirmed: 12, Cancelled: 0]
+Pizza Hut: 4.48 -> 4.60 (+0.12) [Confirmed: 12, Cancelled: 0]
+Pret A Manger: 4.73 -> 4.77 (+0.04) [Confirmed: 4, Cancelled: 0]
+Subway: 4.27 -> 4.30 (+0.03) [Confirmed: 3, Cancelled: 0]
+Tim Hortons: 4.32 -> 4.33 (+0.01) [Confirmed: 1, Cancelled: 0]
+Dunkin Donuts: 4.58 -> 4.67 (+0.09) [Confirmed: 9, Cancelled: 0]
+Domino's Pizza: 4.01 -> 4.03 (+0.02) [Confirmed: 2, Cancelled: 0]
+Cinnabon: 4.60 -> 4.62 (+0.02) [Confirmed: 2, Cancelled: 0]
+Caribou Coffee: 4.10 -> 4.10 (+0.00) [Confirmed: 0, Cancelled: 0]
+Panera Bread: 4.23 -> 4.23 (+0.00) [Confirmed: 0, Cancelled: 0]
+
+Day 7 Summary:
+  Bags Sold: 151
+  Waste: 70
+  Revenue: $14815.00
+
+======================================================================
+=== 7-DAY SIMULATION COMPLETE ===
+======================================================================
+
+====================================================================================================
+ANDREW ALGORITHM RESULTS
+====================================================================================================
+
+========================================
+=== SIMULATION METRICS SUMMARY ===
+========================================
+
+--- SALES METRICS ---
+Total Bags Sold: 996
+Total Bags Cancelled: 27
+Total Bags Unsold (Waste): 358
+
+--- REVENUE METRICS ---
+Total Revenue Generated: $97220.00
+Revenue Lost (from cancellations): $2705.00
+Revenue Efficiency: 97.29%
+
+--- CUSTOMER METRICS ---
+Total Customer Arrivals: 700
+Customers Who Left (No Purchase): 59
+Conversion Rate: 91.57%
+
+--- FAIRNESS METRICS ---
+Gini Coefficient (Exposure): 0.3547
+  (0 = perfect equality, 1 = maximum inequality)
+
+========================================
+
+====================================================================================================
+SIMULATION: AMER ALGORITHM
+====================================================================================================
+
+======================================================================
+=== Starting 7-Day Simulation (AMER Algorithm) ===
+Number of customers per day: 100
+Number of stores: 15
+======================================================================
+
+----------------------------------------------------------------------
+DAY 1 of 7
+----------------------------------------------------------------------
+
+=== Starting Day Simulation (AMER Algorithm) ===
+Number of customers: 100
+Number of stores: 15
+
+Initial Store Inventory:
+Krispy Kreme: Estimated=10, Actual=11, Price=$80.0000, Rating=4.80
+TBS Pizza: Estimated=10, Actual=11, Price=$150.00, Rating=4.20
+Starbucks: Estimated=15, Actual=16, Price=$100.00, Rating=4.50
+Paul Bakery: Estimated=12, Actual=13, Price=$90.00, Rating=4.60
+Costa Coffee: Estimated=8, Actual=8, Price=$85.00, Rating=4.30
+Greggs: Estimated=20, Actual=22, Price=$70.00, Rating=4.00
+Pizza Hut: Estimated=14, Actual=15, Price=$140.00, Rating=4.10
+Pret A Manger: Estimated=18, Actual=20, Price=$95.00, Rating=4.40
+Subway: Estimated=16, Actual=17, Price=$110.00, Rating=3.90
+Tim Hortons: Estimated=10, Actual=11, Price=$80.00, Rating=4.20
+Dunkin Donuts: Estimated=12, Actual=13, Price=$75.00, Rating=4.30
+Domino's Pizza: Estimated=15, Actual=16, Price=$130.00, Rating=4.00
+Cinnabon: Estimated=9, Actual=10, Price=$85.00, Rating=4.40
+Caribou Coffee: Estimated=11, Actual=12, Price=$90.00, Rating=4.10
+Panera Bread: Estimated=13, Actual=14, Price=$95.00, Rating=4.20
+
+Total Reservations Made: 72
+Processing end of day...
+
+=== RATING CHANGES (Dynamic Ratings) ===
+Krispy Kreme: 4.80 -> 4.90 (+0.10) [Confirmed: 10, Cancelled: 0]
+TBS Pizza: 4.20 -> 4.26 (+0.06) [Confirmed: 6, Cancelled: 0]
+Starbucks: 4.50 -> 4.65 (+0.15) [Confirmed: 15, Cancelled: 0]
+Paul Bakery: 4.60 -> 4.72 (+0.12) [Confirmed: 12, Cancelled: 0]
+Costa Coffee: 4.30 -> 4.38 (+0.08) [Confirmed: 8, Cancelled: 0]
+Greggs: 4.00 -> 4.06 (+0.06) [Confirmed: 6, Cancelled: 0]
+Pizza Hut: 4.10 -> 4.13 (+0.03) [Confirmed: 3, Cancelled: 0]
+Pret A Manger: 4.40 -> 4.43 (+0.03) [Confirmed: 3, Cancelled: 0]
+Subway: 3.90 -> 3.93 (+0.03) [Confirmed: 3, Cancelled: 0]
+Tim Hortons: 4.20 -> 4.20 (+0.00) [Confirmed: 0, Cancelled: 0]
+Dunkin Donuts: 4.30 -> 4.33 (+0.03) [Confirmed: 3, Cancelled: 0]
+Domino's Pizza: 4.00 -> 4.00 (+0.00) [Confirmed: 0, Cancelled: 0]
+Cinnabon: 4.40 -> 4.41 (+0.01) [Confirmed: 1, Cancelled: 0]
+Caribou Coffee: 4.10 -> 4.11 (+0.01) [Confirmed: 1, Cancelled: 0]
+Panera Bread: 4.20 -> 4.21 (+0.01) [Confirmed: 1, Cancelled: 0]
+
+Day 1 Summary:
+  Bags Sold: 122
+  Waste: 87
+  Revenue: $11830.00
+
+----------------------------------------------------------------------
+DAY 2 of 7
+----------------------------------------------------------------------
+
+=== Starting Day Simulation (AMER Algorithm) ===
+Number of customers: 100
+Number of stores: 15
+
+Initial Store Inventory:
+Krispy Kreme: Estimated=10, Actual=8, Price=$80.00, Rating=4.90
+TBS Pizza: Estimated=10, Actual=8, Price=$150.00, Rating=4.26
+Starbucks: Estimated=15, Actual=12, Price=$100.00, Rating=4.65
+Paul Bakery: Estimated=12, Actual=9, Price=$90.00, Rating=4.72
+Costa Coffee: Estimated=8, Actual=6, Price=$85.00, Rating=4.38
+Greggs: Estimated=20, Actual=16, Price=$70.00, Rating=4.06
+Pizza Hut: Estimated=14, Actual=11, Price=$140.00, Rating=4.13
+Pret A Manger: Estimated=18, Actual=14, Price=$95.00, Rating=4.43
+Subway: Estimated=16, Actual=12, Price=$110.00, Rating=3.93
+Tim Hortons: Estimated=10, Actual=8, Price=$80.00, Rating=4.20
+Dunkin Donuts: Estimated=12, Actual=9, Price=$75.00, Rating=4.33
+Domino's Pizza: Estimated=15, Actual=12, Price=$130.00, Rating=4.00
+Cinnabon: Estimated=9, Actual=7, Price=$85.00, Rating=4.41
+Caribou Coffee: Estimated=11, Actual=8, Price=$90.00, Rating=4.11
+Panera Bread: Estimated=13, Actual=10, Price=$95.00, Rating=4.21
+
+Total Reservations Made: 86
+Processing end of day...
+
+=== RATING CHANGES (Dynamic Ratings) ===
+Krispy Kreme: 4.90 -> 4.88 (-0.02) [Confirmed: 8, Cancelled: 2]
+TBS Pizza: 4.26 -> 4.24 (-0.02) [Confirmed: 8, Cancelled: 2]
+Starbucks: 4.65 -> 4.62 (-0.03) [Confirmed: 12, Cancelled: 3]
+Paul Bakery: 4.72 -> 4.66 (-0.06) [Confirmed: 9, Cancelled: 3]
+Costa Coffee: 4.38 -> 4.34 (-0.04) [Confirmed: 6, Cancelled: 2]
+Greggs: 4.06 -> 4.15 (+0.09) [Confirmed: 9, Cancelled: 0]
+Pizza Hut: 4.13 -> 4.17 (+0.04) [Confirmed: 4, Cancelled: 0]
+Pret A Manger: 4.43 -> 4.47 (+0.04) [Confirmed: 4, Cancelled: 0]
+Subway: 3.93 -> 3.95 (+0.02) [Confirmed: 2, Cancelled: 0]
+Tim Hortons: 4.20 -> 4.20 (+0.00) [Confirmed: 0, Cancelled: 0]
+Dunkin Donuts: 4.33 -> 4.40 (+0.07) [Confirmed: 7, Cancelled: 0]
+Domino's Pizza: 4.00 -> 4.01 (+0.01) [Confirmed: 1, Cancelled: 0]
+Cinnabon: 4.41 -> 4.45 (+0.04) [Confirmed: 4, Cancelled: 0]
+Caribou Coffee: 4.11 -> 4.11 (+0.00) [Confirmed: 0, Cancelled: 0]
+Panera Bread: 4.21 -> 4.21 (+0.00) [Confirmed: 0, Cancelled: 0]
+
+Day 2 Summary:
+  Bags Sold: 107
+  Waste: 43
+  Revenue: $10480.00
+
+----------------------------------------------------------------------
+DAY 3 of 7
+----------------------------------------------------------------------
+
+=== Starting Day Simulation (AMER Algorithm) ===
+Number of customers: 100
+Number of stores: 15
+
+Initial Store Inventory:
+Krispy Kreme: Estimated=10, Actual=9, Price=$80.00, Rating=4.88
+TBS Pizza: Estimated=10, Actual=9, Price=$150.00, Rating=4.24
+Starbucks: Estimated=15, Actual=14, Price=$100.00, Rating=4.62
+Paul Bakery: Estimated=12, Actual=11, Price=$90.00, Rating=4.66
+Costa Coffee: Estimated=8, Actual=7, Price=$85.00, Rating=4.34
+Greggs: Estimated=20, Actual=19, Price=$70.00, Rating=4.15
+Pizza Hut: Estimated=14, Actual=13, Price=$140.00, Rating=4.17
+Pret A Manger: Estimated=18, Actual=17, Price=$95.00, Rating=4.47
+Subway: Estimated=16, Actual=15, Price=$110.00, Rating=3.95
+Tim Hortons: Estimated=10, Actual=9, Price=$80.00, Rating=4.20
+Dunkin Donuts: Estimated=12, Actual=11, Price=$75.00, Rating=4.40
+Domino's Pizza: Estimated=15, Actual=14, Price=$130.00, Rating=4.01
+Cinnabon: Estimated=9, Actual=8, Price=$85.00, Rating=4.45
+Caribou Coffee: Estimated=11, Actual=10, Price=$90.00, Rating=4.11
+Panera Bread: Estimated=13, Actual=12, Price=$95.00, Rating=4.21
+
+Total Reservations Made: 90
+Processing end of day...
+
+=== RATING CHANGES (Dynamic Ratings) ===
+Krispy Kreme: 4.88 -> 4.92 (+0.04) [Confirmed: 9, Cancelled: 1]
+TBS Pizza: 4.24 -> 4.28 (+0.04) [Confirmed: 9, Cancelled: 1]
+Starbucks: 4.62 -> 4.71 (+0.09) [Confirmed: 14, Cancelled: 1]
+Paul Bakery: 4.66 -> 4.72 (+0.06) [Confirmed: 11, Cancelled: 1]
+Costa Coffee: 4.34 -> 4.36 (+0.02) [Confirmed: 7, Cancelled: 1]
+Greggs: 4.15 -> 4.25 (+0.10) [Confirmed: 10, Cancelled: 0]
+Pizza Hut: 4.17 -> 4.24 (+0.07) [Confirmed: 7, Cancelled: 0]
+Pret A Manger: 4.47 -> 4.50 (+0.03) [Confirmed: 3, Cancelled: 0]
+Subway: 3.95 -> 3.98 (+0.03) [Confirmed: 3, Cancelled: 0]
+Tim Hortons: 4.20 -> 4.21 (+0.01) [Confirmed: 1, Cancelled: 0]
+Dunkin Donuts: 4.40 -> 4.50 (+0.10) [Confirmed: 10, Cancelled: 0]
+Domino's Pizza: 4.01 -> 4.01 (+0.00) [Confirmed: 0, Cancelled: 0]
+Cinnabon: 4.45 -> 4.45 (+0.00) [Confirmed: 0, Cancelled: 0]
+Caribou Coffee: 4.11 -> 4.11 (+0.00) [Confirmed: 0, Cancelled: 0]
+Panera Bread: 4.21 -> 4.22 (+0.01) [Confirmed: 1, Cancelled: 0]
+
+Day 3 Summary:
+  Bags Sold: 117
+  Waste: 61
+  Revenue: $11400.00
+
+----------------------------------------------------------------------
+DAY 4 of 7
+----------------------------------------------------------------------
+
+=== Starting Day Simulation (AMER Algorithm) ===
+Number of customers: 100
+Number of stores: 15
+
+Initial Store Inventory:
+Krispy Kreme: Estimated=10, Actual=11, Price=$80.00, Rating=4.92
+TBS Pizza: Estimated=10, Actual=11, Price=$150.00, Rating=4.28
+Starbucks: Estimated=15, Actual=17, Price=$100.00, Rating=4.71
+Paul Bakery: Estimated=12, Actual=13, Price=$90.00, Rating=4.72
+Costa Coffee: Estimated=8, Actual=9, Price=$85.00, Rating=4.36
+Greggs: Estimated=20, Actual=23, Price=$70.00, Rating=4.25
+Pizza Hut: Estimated=14, Actual=16, Price=$140.00, Rating=4.24
+Pret A Manger: Estimated=18, Actual=20, Price=$95.00, Rating=4.50
+Subway: Estimated=16, Actual=18, Price=$110.00, Rating=3.98
+Tim Hortons: Estimated=10, Actual=11, Price=$80.00, Rating=4.21
+Dunkin Donuts: Estimated=12, Actual=13, Price=$75.00, Rating=4.50
+Domino's Pizza: Estimated=15, Actual=17, Price=$130.00, Rating=4.01
+Cinnabon: Estimated=9, Actual=10, Price=$85.00, Rating=4.45
+Caribou Coffee: Estimated=11, Actual=12, Price=$90.00, Rating=4.11
+Panera Bread: Estimated=13, Actual=14, Price=$95.00, Rating=4.22
+
+Total Reservations Made: 96
+Processing end of day...
+
+=== RATING CHANGES (Dynamic Ratings) ===
+Krispy Kreme: 4.92 -> 5.00 (+0.08) [Confirmed: 10, Cancelled: 0]
+TBS Pizza: 4.28 -> 4.37 (+0.09) [Confirmed: 9, Cancelled: 0]
+Starbucks: 4.71 -> 4.86 (+0.15) [Confirmed: 15, Cancelled: 0]
+Paul Bakery: 4.72 -> 4.84 (+0.12) [Confirmed: 12, Cancelled: 0]
+Costa Coffee: 4.36 -> 4.44 (+0.08) [Confirmed: 8, Cancelled: 0]
+Greggs: 4.25 -> 4.39 (+0.14) [Confirmed: 14, Cancelled: 0]
+Pizza Hut: 4.24 -> 4.32 (+0.08) [Confirmed: 8, Cancelled: 0]
+Pret A Manger: 4.50 -> 4.53 (+0.03) [Confirmed: 3, Cancelled: 0]
+Subway: 3.98 -> 4.06 (+0.08) [Confirmed: 8, Cancelled: 0]
+Tim Hortons: 4.21 -> 4.24 (+0.03) [Confirmed: 3, Cancelled: 0]
+Dunkin Donuts: 4.50 -> 4.54 (+0.04) [Confirmed: 4, Cancelled: 0]
+Domino's Pizza: 4.01 -> 4.01 (+0.00) [Confirmed: 0, Cancelled: 0]
+Cinnabon: 4.45 -> 4.46 (+0.01) [Confirmed: 1, Cancelled: 0]
+Caribou Coffee: 4.11 -> 4.11 (+0.00) [Confirmed: 0, Cancelled: 0]
+Panera Bread: 4.22 -> 4.23 (+0.01) [Confirmed: 1, Cancelled: 0]
+
+Day 4 Summary:
+  Bags Sold: 154
+  Waste: 61
+  Revenue: $15010.00
+
+----------------------------------------------------------------------
+DAY 5 of 7
+----------------------------------------------------------------------
+
+=== Starting Day Simulation (AMER Algorithm) ===
+Number of customers: 100
+Number of stores: 15
+
+Initial Store Inventory:
+Krispy Kreme: Estimated=10, Actual=8, Price=$80.00, Rating=5.00
+TBS Pizza: Estimated=10, Actual=8, Price=$150.00, Rating=4.37
+Starbucks: Estimated=15, Actual=13, Price=$100.00, Rating=4.86
+Paul Bakery: Estimated=12, Actual=10, Price=$90.00, Rating=4.84
+Costa Coffee: Estimated=8, Actual=6, Price=$85.00, Rating=4.44
+Greggs: Estimated=20, Actual=17, Price=$70.00, Rating=4.39
+Pizza Hut: Estimated=14, Actual=12, Price=$140.00, Rating=4.32
+Pret A Manger: Estimated=18, Actual=15, Price=$95.00, Rating=4.53
+Subway: Estimated=16, Actual=13, Price=$110.00, Rating=4.06
+Tim Hortons: Estimated=10, Actual=8, Price=$80.00, Rating=4.24
+Dunkin Donuts: Estimated=12, Actual=10, Price=$75.00, Rating=4.54
+Domino's Pizza: Estimated=15, Actual=13, Price=$130.00, Rating=4.01
+Cinnabon: Estimated=9, Actual=7, Price=$85.00, Rating=4.46
+Caribou Coffee: Estimated=11, Actual=9, Price=$90.00, Rating=4.11
+Panera Bread: Estimated=13, Actual=11, Price=$95.00, Rating=4.23
+
+Total Reservations Made: 95
+Processing end of day...
+
+=== RATING CHANGES (Dynamic Ratings) ===
+Krispy Kreme: 5.00 -> 4.90 (-0.10) [Confirmed: 8, Cancelled: 2]
+TBS Pizza: 4.37 -> 4.44 (+0.07) [Confirmed: 7, Cancelled: 0]
+Starbucks: 4.86 -> 4.89 (+0.03) [Confirmed: 13, Cancelled: 2]
+Paul Bakery: 4.84 -> 4.84 (+0.00) [Confirmed: 10, Cancelled: 2]
+Costa Coffee: 4.44 -> 4.40 (-0.04) [Confirmed: 6, Cancelled: 2]
+Greggs: 4.39 -> 4.50 (+0.11) [Confirmed: 11, Cancelled: 0]
+Pizza Hut: 4.32 -> 4.42 (+0.10) [Confirmed: 10, Cancelled: 0]
+Pret A Manger: 4.53 -> 4.60 (+0.07) [Confirmed: 7, Cancelled: 0]
+Subway: 4.06 -> 4.11 (+0.05) [Confirmed: 5, Cancelled: 0]
+Tim Hortons: 4.24 -> 4.24 (+0.00) [Confirmed: 0, Cancelled: 0]
+Dunkin Donuts: 4.54 -> 4.62 (+0.08) [Confirmed: 8, Cancelled: 0]
+Domino's Pizza: 4.01 -> 4.01 (+0.00) [Confirmed: 0, Cancelled: 0]
+Cinnabon: 4.46 -> 4.48 (+0.02) [Confirmed: 2, Cancelled: 0]
+Caribou Coffee: 4.11 -> 4.11 (+0.00) [Confirmed: 0, Cancelled: 0]
+Panera Bread: 4.23 -> 4.23 (+0.00) [Confirmed: 0, Cancelled: 0]
+
+Day 5 Summary:
+  Bags Sold: 118
+  Waste: 42
+  Revenue: $11535.00
+
+----------------------------------------------------------------------
+DAY 6 of 7
+----------------------------------------------------------------------
+
+=== Starting Day Simulation (AMER Algorithm) ===
+Number of customers: 100
+Number of stores: 15
+
+Initial Store Inventory:
+Krispy Kreme: Estimated=10, Actual=11, Price=$80.00, Rating=4.90
+TBS Pizza: Estimated=10, Actual=11, Price=$150.00, Rating=4.44
+Starbucks: Estimated=15, Actual=17, Price=$100.00, Rating=4.89
+Paul Bakery: Estimated=12, Actual=14, Price=$90.00, Rating=4.84
+Costa Coffee: Estimated=8, Actual=9, Price=$85.00, Rating=4.40
+Greggs: Estimated=20, Actual=23, Price=$70.00, Rating=4.50
+Pizza Hut: Estimated=14, Actual=16, Price=$140.00, Rating=4.42
+Pret A Manger: Estimated=18, Actual=21, Price=$95.00, Rating=4.60
+Subway: Estimated=16, Actual=19, Price=$110.00, Rating=4.11
+Tim Hortons: Estimated=10, Actual=11, Price=$80.00, Rating=4.24
+Dunkin Donuts: Estimated=12, Actual=14, Price=$75.00, Rating=4.62
+Domino's Pizza: Estimated=15, Actual=17, Price=$130.00, Rating=4.01
+Cinnabon: Estimated=9, Actual=10, Price=$85.00, Rating=4.48
+Caribou Coffee: Estimated=11, Actual=13, Price=$90.00, Rating=4.11
+Panera Bread: Estimated=13, Actual=15, Price=$95.00, Rating=4.23
+
+Total Reservations Made: 98
+Processing end of day...
+
+=== RATING CHANGES (Dynamic Ratings) ===
+Krispy Kreme: 4.90 -> 5.00 (+0.10) [Confirmed: 10, Cancelled: 0]
+TBS Pizza: 4.44 -> 4.54 (+0.10) [Confirmed: 10, Cancelled: 0]
+Starbucks: 4.89 -> 5.00 (+0.11) [Confirmed: 15, Cancelled: 0]
+Paul Bakery: 4.84 -> 4.96 (+0.12) [Confirmed: 12, Cancelled: 0]
+Costa Coffee: 4.40 -> 4.48 (+0.08) [Confirmed: 8, Cancelled: 0]
+Greggs: 4.50 -> 4.61 (+0.11) [Confirmed: 11, Cancelled: 0]
+Pizza Hut: 4.42 -> 4.56 (+0.14) [Confirmed: 14, Cancelled: 0]
+Pret A Manger: 4.60 -> 4.63 (+0.03) [Confirmed: 3, Cancelled: 0]
+Subway: 4.11 -> 4.17 (+0.06) [Confirmed: 6, Cancelled: 0]
+Tim Hortons: 4.24 -> 4.25 (+0.01) [Confirmed: 1, Cancelled: 0]
+Dunkin Donuts: 4.62 -> 4.66 (+0.04) [Confirmed: 4, Cancelled: 0]
+Domino's Pizza: 4.01 -> 4.02 (+0.01) [Confirmed: 1, Cancelled: 0]
+Cinnabon: 4.48 -> 4.49 (+0.01) [Confirmed: 1, Cancelled: 0]
+Caribou Coffee: 4.11 -> 4.12 (+0.01) [Confirmed: 1, Cancelled: 0]
+Panera Bread: 4.23 -> 4.24 (+0.01) [Confirmed: 1, Cancelled: 0]
+
+Day 6 Summary:
+  Bags Sold: 155
+  Waste: 66
+  Revenue: $15280.00
+
+----------------------------------------------------------------------
+DAY 7 of 7
+----------------------------------------------------------------------
+
+=== Starting Day Simulation (AMER Algorithm) ===
+Number of customers: 100
+Number of stores: 15
+
+Initial Store Inventory:
+Krispy Kreme: Estimated=10, Actual=11, Price=$80.00, Rating=5.00
+TBS Pizza: Estimated=10, Actual=11, Price=$150.00, Rating=4.54
+Starbucks: Estimated=15, Actual=17, Price=$100.00, Rating=5.00
+Paul Bakery: Estimated=12, Actual=14, Price=$90.00, Rating=4.96
+Costa Coffee: Estimated=8, Actual=9, Price=$85.00, Rating=4.48
+Greggs: Estimated=20, Actual=23, Price=$70.00, Rating=4.61
+Pizza Hut: Estimated=14, Actual=16, Price=$140.00, Rating=4.56
+Pret A Manger: Estimated=18, Actual=21, Price=$95.00, Rating=4.63
+Subway: Estimated=16, Actual=19, Price=$110.00, Rating=4.17
+Tim Hortons: Estimated=10, Actual=11, Price=$80.00, Rating=4.25
+Dunkin Donuts: Estimated=12, Actual=14, Price=$75.00, Rating=4.66
+Domino's Pizza: Estimated=15, Actual=17, Price=$130.00, Rating=4.02
+Cinnabon: Estimated=9, Actual=10, Price=$85.00, Rating=4.49
+Caribou Coffee: Estimated=11, Actual=13, Price=$90.00, Rating=4.12
+Panera Bread: Estimated=13, Actual=15, Price=$95.00, Rating=4.24
+
+Total Reservations Made: 100
+Processing end of day...
+
+=== RATING CHANGES (Dynamic Ratings) ===
+Krispy Kreme: 5.00 -> 5.00 (+0.00) [Confirmed: 8, Cancelled: 0]
+TBS Pizza: 4.54 -> 4.64 (+0.10) [Confirmed: 10, Cancelled: 0]
+Starbucks: 5.00 -> 5.00 (+0.00) [Confirmed: 15, Cancelled: 0]
+Paul Bakery: 4.96 -> 5.00 (+0.04) [Confirmed: 12, Cancelled: 0]
+Costa Coffee: 4.48 -> 4.56 (+0.08) [Confirmed: 8, Cancelled: 0]
+Greggs: 4.61 -> 4.72 (+0.11) [Confirmed: 11, Cancelled: 0]
+Pizza Hut: 4.56 -> 4.64 (+0.08) [Confirmed: 8, Cancelled: 0]
+Pret A Manger: 4.63 -> 4.71 (+0.08) [Confirmed: 8, Cancelled: 0]
+Subway: 4.17 -> 4.24 (+0.07) [Confirmed: 7, Cancelled: 0]
+Tim Hortons: 4.25 -> 4.26 (+0.01) [Confirmed: 1, Cancelled: 0]
+Dunkin Donuts: 4.66 -> 4.74 (+0.08) [Confirmed: 8, Cancelled: 0]
+Domino's Pizza: 4.02 -> 4.02 (+0.00) [Confirmed: 0, Cancelled: 0]
+Cinnabon: 4.49 -> 4.52 (+0.03) [Confirmed: 3, Cancelled: 0]
+Caribou Coffee: 4.12 -> 4.12 (+0.00) [Confirmed: 0, Cancelled: 0]
+Panera Bread: 4.24 -> 4.25 (+0.01) [Confirmed: 1, Cancelled: 0]
+
+Day 7 Summary:
+  Bags Sold: 170
+  Waste: 51
+  Revenue: $16530.00
+
+======================================================================
+=== 7-DAY SIMULATION COMPLETE ===
+======================================================================
+
+====================================================================================================
+AMER ALGORITHM RESULTS
+====================================================================================================
+
+========================================
+=== SIMULATION METRICS SUMMARY ===
+========================================
+
+--- SALES METRICS ---
+Total Bags Sold: 943
+Total Bags Cancelled: 25
+Total Bags Unsold (Waste): 411
+
+--- REVENUE METRICS ---
+Total Revenue Generated: $92065.00
+Revenue Lost (from cancellations): $2415.00
+Revenue Efficiency: 97.44%
+
+--- CUSTOMER METRICS ---
+Total Customer Arrivals: 700
+Customers Who Left (No Purchase): 63
+Conversion Rate: 91.00%
+
+--- FAIRNESS METRICS ---
+Gini Coefficient (Exposure): 0.3733
+  (0 = perfect equality, 1 = maximum inequality)
+
+========================================
+
+====================================================================================================
+SIMULATION: ZIAD ALGORITHM
+====================================================================================================
+
+======================================================================
+=== Starting 7-Day Simulation (ZIAD Algorithm) ===
+Number of customers per day: 100
+Number of stores: 15
+======================================================================
+
+----------------------------------------------------------------------
+DAY 1 of 7
+----------------------------------------------------------------------
+
+=== Starting Day Simulation (ZIAD Algorithm) ===
+Number of customers: 100
+Number of stores: 15
+
+Initial Store Inventory:
+Krispy Kreme: Estimated=10, Actual=11, Price=$80.0000, Rating=4.80
+TBS Pizza: Estimated=10, Actual=11, Price=$150.00, Rating=4.20
+Starbucks: Estimated=15, Actual=16, Price=$100.00, Rating=4.50
+Paul Bakery: Estimated=12, Actual=13, Price=$90.00, Rating=4.60
+Costa Coffee: Estimated=8, Actual=8, Price=$85.00, Rating=4.30
+Greggs: Estimated=20, Actual=22, Price=$70.00, Rating=4.00
+Pizza Hut: Estimated=14, Actual=15, Price=$140.00, Rating=4.10
+Pret A Manger: Estimated=18, Actual=20, Price=$95.00, Rating=4.40
+Subway: Estimated=16, Actual=17, Price=$110.00, Rating=3.90
+Tim Hortons: Estimated=10, Actual=11, Price=$80.00, Rating=4.20
+Dunkin Donuts: Estimated=12, Actual=13, Price=$75.00, Rating=4.30
+Domino's Pizza: Estimated=15, Actual=16, Price=$130.00, Rating=4.00
+Cinnabon: Estimated=9, Actual=10, Price=$85.00, Rating=4.40
+Caribou Coffee: Estimated=11, Actual=12, Price=$90.00, Rating=4.10
+Panera Bread: Estimated=13, Actual=14, Price=$95.00, Rating=4.20
+
+Total Reservations Made: 74
+Processing end of day...
+
+=== RATING CHANGES (Dynamic Ratings) ===
+Krispy Kreme: 4.80 -> 4.90 (+0.10) [Confirmed: 10, Cancelled: 0]
+TBS Pizza: 4.20 -> 4.23 (+0.03) [Confirmed: 3, Cancelled: 0]
+Starbucks: 4.50 -> 4.65 (+0.15) [Confirmed: 15, Cancelled: 0]
+Paul Bakery: 4.60 -> 4.72 (+0.12) [Confirmed: 12, Cancelled: 0]
+Costa Coffee: 4.30 -> 4.38 (+0.08) [Confirmed: 8, Cancelled: 0]
+Greggs: 4.00 -> 4.07 (+0.07) [Confirmed: 7, Cancelled: 0]
+Pizza Hut: 4.10 -> 4.14 (+0.04) [Confirmed: 4, Cancelled: 0]
+Pret A Manger: 4.40 -> 4.43 (+0.03) [Confirmed: 3, Cancelled: 0]
+Subway: 3.90 -> 3.95 (+0.05) [Confirmed: 5, Cancelled: 0]
+Tim Hortons: 4.20 -> 4.21 (+0.01) [Confirmed: 1, Cancelled: 0]
+Dunkin Donuts: 4.30 -> 4.33 (+0.03) [Confirmed: 3, Cancelled: 0]
+Domino's Pizza: 4.00 -> 4.00 (+0.00) [Confirmed: 0, Cancelled: 0]
+Cinnabon: 4.40 -> 4.42 (+0.02) [Confirmed: 2, Cancelled: 0]
+Caribou Coffee: 4.10 -> 4.10 (+0.00) [Confirmed: 0, Cancelled: 0]
+Panera Bread: 4.20 -> 4.21 (+0.01) [Confirmed: 1, Cancelled: 0]
+
+Day 1 Summary:
+  Bags Sold: 135
+  Waste: 74
+  Revenue: $13045.00
+
+----------------------------------------------------------------------
+DAY 2 of 7
+----------------------------------------------------------------------
+
+=== Starting Day Simulation (ZIAD Algorithm) ===
+Number of customers: 100
+Number of stores: 15
+
+Initial Store Inventory:
+Krispy Kreme: Estimated=10, Actual=8, Price=$80.00, Rating=4.90
+TBS Pizza: Estimated=10, Actual=8, Price=$150.00, Rating=4.23
+Starbucks: Estimated=15, Actual=12, Price=$100.00, Rating=4.65
+Paul Bakery: Estimated=12, Actual=9, Price=$90.00, Rating=4.72
+Costa Coffee: Estimated=8, Actual=6, Price=$85.00, Rating=4.38
+Greggs: Estimated=20, Actual=16, Price=$70.00, Rating=4.07
+Pizza Hut: Estimated=14, Actual=11, Price=$140.00, Rating=4.14
+Pret A Manger: Estimated=18, Actual=14, Price=$95.00, Rating=4.43
+Subway: Estimated=16, Actual=12, Price=$110.00, Rating=3.95
+Tim Hortons: Estimated=10, Actual=8, Price=$80.00, Rating=4.21
+Dunkin Donuts: Estimated=12, Actual=9, Price=$75.00, Rating=4.33
+Domino's Pizza: Estimated=15, Actual=12, Price=$130.00, Rating=4.00
+Cinnabon: Estimated=9, Actual=7, Price=$85.00, Rating=4.42
+Caribou Coffee: Estimated=11, Actual=8, Price=$90.00, Rating=4.10
+Panera Bread: Estimated=13, Actual=10, Price=$95.00, Rating=4.21
+
+Total Reservations Made: 89
+Processing end of day...
+
+=== RATING CHANGES (Dynamic Ratings) ===
+Krispy Kreme: 4.90 -> 4.88 (-0.02) [Confirmed: 8, Cancelled: 2]
+TBS Pizza: 4.23 -> 4.31 (+0.08) [Confirmed: 8, Cancelled: 0]
+Starbucks: 4.65 -> 4.62 (-0.03) [Confirmed: 12, Cancelled: 3]
+Paul Bakery: 4.72 -> 4.66 (-0.06) [Confirmed: 9, Cancelled: 3]
+Costa Coffee: 4.38 -> 4.34 (-0.04) [Confirmed: 6, Cancelled: 2]
+Greggs: 4.07 -> 4.19 (+0.12) [Confirmed: 12, Cancelled: 0]
+Pizza Hut: 4.14 -> 4.23 (+0.09) [Confirmed: 9, Cancelled: 0]
+Pret A Manger: 4.43 -> 4.46 (+0.03) [Confirmed: 3, Cancelled: 0]
+Subway: 3.95 -> 3.98 (+0.03) [Confirmed: 3, Cancelled: 0]
+Tim Hortons: 4.21 -> 4.22 (+0.01) [Confirmed: 1, Cancelled: 0]
+Dunkin Donuts: 4.33 -> 4.38 (+0.05) [Confirmed: 5, Cancelled: 0]
+Domino's Pizza: 4.00 -> 4.00 (+0.00) [Confirmed: 0, Cancelled: 0]
+Cinnabon: 4.42 -> 4.45 (+0.03) [Confirmed: 3, Cancelled: 0]
+Caribou Coffee: 4.10 -> 4.10 (+0.00) [Confirmed: 0, Cancelled: 0]
+Panera Bread: 4.21 -> 4.21 (+0.00) [Confirmed: 0, Cancelled: 0]
+
+Day 2 Summary:
+  Bags Sold: 107
+  Waste: 43
+  Revenue: $10375.00
+
+----------------------------------------------------------------------
+DAY 3 of 7
+----------------------------------------------------------------------
+
+=== Starting Day Simulation (ZIAD Algorithm) ===
+Number of customers: 100
+Number of stores: 15
+
+Initial Store Inventory:
+Krispy Kreme: Estimated=10, Actual=9, Price=$80.00, Rating=4.88
+TBS Pizza: Estimated=10, Actual=9, Price=$150.00, Rating=4.31
+Starbucks: Estimated=15, Actual=14, Price=$100.00, Rating=4.62
+Paul Bakery: Estimated=12, Actual=11, Price=$90.00, Rating=4.66
+Costa Coffee: Estimated=8, Actual=7, Price=$85.00, Rating=4.34
+Greggs: Estimated=20, Actual=19, Price=$70.00, Rating=4.19
+Pizza Hut: Estimated=14, Actual=13, Price=$140.00, Rating=4.23
+Pret A Manger: Estimated=18, Actual=17, Price=$95.00, Rating=4.46
+Subway: Estimated=16, Actual=15, Price=$110.00, Rating=3.98
+Tim Hortons: Estimated=10, Actual=9, Price=$80.00, Rating=4.22
+Dunkin Donuts: Estimated=12, Actual=11, Price=$75.00, Rating=4.38
+Domino's Pizza: Estimated=15, Actual=14, Price=$130.00, Rating=4.00
+Cinnabon: Estimated=9, Actual=8, Price=$85.00, Rating=4.45
+Caribou Coffee: Estimated=11, Actual=10, Price=$90.00, Rating=4.10
+Panera Bread: Estimated=13, Actual=12, Price=$95.00, Rating=4.21
+
+Total Reservations Made: 90
+Processing end of day...
+
+=== RATING CHANGES (Dynamic Ratings) ===
+Krispy Kreme: 4.88 -> 4.92 (+0.04) [Confirmed: 9, Cancelled: 1]
+TBS Pizza: 4.31 -> 4.37 (+0.06) [Confirmed: 6, Cancelled: 0]
+Starbucks: 4.62 -> 4.71 (+0.09) [Confirmed: 14, Cancelled: 1]
+Paul Bakery: 4.66 -> 4.72 (+0.06) [Confirmed: 11, Cancelled: 1]
+Costa Coffee: 4.34 -> 4.36 (+0.02) [Confirmed: 7, Cancelled: 1]
+Greggs: 4.19 -> 4.33 (+0.14) [Confirmed: 14, Cancelled: 0]
+Pizza Hut: 4.23 -> 4.30 (+0.07) [Confirmed: 7, Cancelled: 0]
+Pret A Manger: 4.46 -> 4.52 (+0.06) [Confirmed: 6, Cancelled: 0]
+Subway: 3.98 -> 3.99 (+0.01) [Confirmed: 1, Cancelled: 0]
+Tim Hortons: 4.22 -> 4.23 (+0.01) [Confirmed: 1, Cancelled: 0]
+Dunkin Donuts: 4.38 -> 4.44 (+0.06) [Confirmed: 6, Cancelled: 0]
+Domino's Pizza: 4.00 -> 4.01 (+0.01) [Confirmed: 1, Cancelled: 0]
+Cinnabon: 4.45 -> 4.47 (+0.02) [Confirmed: 2, Cancelled: 0]
+Caribou Coffee: 4.10 -> 4.10 (+0.00) [Confirmed: 0, Cancelled: 0]
+Panera Bread: 4.21 -> 4.22 (+0.01) [Confirmed: 1, Cancelled: 0]
+
+Day 3 Summary:
+  Bags Sold: 128
+  Waste: 50
+  Revenue: $12400.00
+
+----------------------------------------------------------------------
+DAY 4 of 7
+----------------------------------------------------------------------
+
+=== Starting Day Simulation (ZIAD Algorithm) ===
+Number of customers: 100
+Number of stores: 15
+
+Initial Store Inventory:
+Krispy Kreme: Estimated=10, Actual=11, Price=$80.00, Rating=4.92
+TBS Pizza: Estimated=10, Actual=11, Price=$150.00, Rating=4.37
+Starbucks: Estimated=15, Actual=17, Price=$100.00, Rating=4.71
+Paul Bakery: Estimated=12, Actual=13, Price=$90.00, Rating=4.72
+Costa Coffee: Estimated=8, Actual=9, Price=$85.00, Rating=4.36
+Greggs: Estimated=20, Actual=23, Price=$70.00, Rating=4.33
+Pizza Hut: Estimated=14, Actual=16, Price=$140.00, Rating=4.30
+Pret A Manger: Estimated=18, Actual=20, Price=$95.00, Rating=4.52
+Subway: Estimated=16, Actual=18, Price=$110.00, Rating=3.99
+Tim Hortons: Estimated=10, Actual=11, Price=$80.00, Rating=4.23
+Dunkin Donuts: Estimated=12, Actual=13, Price=$75.00, Rating=4.44
+Domino's Pizza: Estimated=15, Actual=17, Price=$130.00, Rating=4.01
+Cinnabon: Estimated=9, Actual=10, Price=$85.00, Rating=4.47
+Caribou Coffee: Estimated=11, Actual=12, Price=$90.00, Rating=4.10
+Panera Bread: Estimated=13, Actual=14, Price=$95.00, Rating=4.22
+
+Total Reservations Made: 95
+Processing end of day...
+
+=== RATING CHANGES (Dynamic Ratings) ===
+Krispy Kreme: 4.92 -> 5.00 (+0.08) [Confirmed: 10, Cancelled: 0]
+TBS Pizza: 4.37 -> 4.47 (+0.10) [Confirmed: 10, Cancelled: 0]
+Starbucks: 4.71 -> 4.86 (+0.15) [Confirmed: 15, Cancelled: 0]
+Paul Bakery: 4.72 -> 4.84 (+0.12) [Confirmed: 12, Cancelled: 0]
+Costa Coffee: 4.36 -> 4.44 (+0.08) [Confirmed: 8, Cancelled: 0]
+Greggs: 4.33 -> 4.44 (+0.11) [Confirmed: 11, Cancelled: 0]
+Pizza Hut: 4.30 -> 4.41 (+0.11) [Confirmed: 11, Cancelled: 0]
+Pret A Manger: 4.52 -> 4.57 (+0.05) [Confirmed: 5, Cancelled: 0]
+Subway: 3.99 -> 4.01 (+0.02) [Confirmed: 2, Cancelled: 0]
+Tim Hortons: 4.23 -> 4.25 (+0.02) [Confirmed: 2, Cancelled: 0]
+Dunkin Donuts: 4.44 -> 4.51 (+0.07) [Confirmed: 7, Cancelled: 0]
+Domino's Pizza: 4.01 -> 4.02 (+0.01) [Confirmed: 1, Cancelled: 0]
+Cinnabon: 4.47 -> 4.48 (+0.01) [Confirmed: 1, Cancelled: 0]
+Caribou Coffee: 4.10 -> 4.10 (+0.00) [Confirmed: 0, Cancelled: 0]
+Panera Bread: 4.22 -> 4.22 (+0.00) [Confirmed: 0, Cancelled: 0]
+
+Day 4 Summary:
+  Bags Sold: 146
+  Waste: 69
+  Revenue: $14200.00
+
+----------------------------------------------------------------------
+DAY 5 of 7
+----------------------------------------------------------------------
+
+=== Starting Day Simulation (ZIAD Algorithm) ===
+Number of customers: 100
+Number of stores: 15
+
+Initial Store Inventory:
+Krispy Kreme: Estimated=10, Actual=8, Price=$80.00, Rating=5.00
+TBS Pizza: Estimated=10, Actual=8, Price=$150.00, Rating=4.47
+Starbucks: Estimated=15, Actual=13, Price=$100.00, Rating=4.86
+Paul Bakery: Estimated=12, Actual=10, Price=$90.00, Rating=4.84
+Costa Coffee: Estimated=8, Actual=6, Price=$85.00, Rating=4.44
+Greggs: Estimated=20, Actual=17, Price=$70.00, Rating=4.44
+Pizza Hut: Estimated=14, Actual=12, Price=$140.00, Rating=4.41
+Pret A Manger: Estimated=18, Actual=15, Price=$95.00, Rating=4.57
+Subway: Estimated=16, Actual=13, Price=$110.00, Rating=4.01
+Tim Hortons: Estimated=10, Actual=8, Price=$80.00, Rating=4.25
+Dunkin Donuts: Estimated=12, Actual=10, Price=$75.00, Rating=4.51
+Domino's Pizza: Estimated=15, Actual=13, Price=$130.00, Rating=4.02
+Cinnabon: Estimated=9, Actual=7, Price=$85.00, Rating=4.48
+Caribou Coffee: Estimated=11, Actual=9, Price=$90.00, Rating=4.10
+Panera Bread: Estimated=13, Actual=11, Price=$95.00, Rating=4.22
+
+Total Reservations Made: 98
+Processing end of day...
+
+=== RATING CHANGES (Dynamic Ratings) ===
+Krispy Kreme: 5.00 -> 4.90 (-0.10) [Confirmed: 8, Cancelled: 2]
+TBS Pizza: 4.47 -> 4.55 (+0.08) [Confirmed: 8, Cancelled: 0]
+Starbucks: 4.86 -> 4.89 (+0.03) [Confirmed: 13, Cancelled: 2]
+Paul Bakery: 4.84 -> 4.94 (+0.10) [Confirmed: 10, Cancelled: 0]
+Costa Coffee: 4.44 -> 4.40 (-0.04) [Confirmed: 6, Cancelled: 2]
+Greggs: 4.44 -> 4.60 (+0.16) [Confirmed: 16, Cancelled: 0]
+Pizza Hut: 4.41 -> 4.50 (+0.09) [Confirmed: 9, Cancelled: 0]
+Pret A Manger: 4.57 -> 4.62 (+0.05) [Confirmed: 5, Cancelled: 0]
+Subway: 4.01 -> 4.08 (+0.07) [Confirmed: 7, Cancelled: 0]
+Tim Hortons: 4.25 -> 4.25 (+0.00) [Confirmed: 0, Cancelled: 0]
+Dunkin Donuts: 4.51 -> 4.56 (+0.05) [Confirmed: 5, Cancelled: 0]
+Domino's Pizza: 4.02 -> 4.03 (+0.01) [Confirmed: 1, Cancelled: 0]
+Cinnabon: 4.48 -> 4.51 (+0.03) [Confirmed: 3, Cancelled: 0]
+Caribou Coffee: 4.10 -> 4.10 (+0.00) [Confirmed: 0, Cancelled: 0]
+Panera Bread: 4.22 -> 4.23 (+0.01) [Confirmed: 1, Cancelled: 0]
+
+Day 5 Summary:
+  Bags Sold: 125
+  Waste: 35
+  Revenue: $12295.00
+
+----------------------------------------------------------------------
+DAY 6 of 7
+----------------------------------------------------------------------
+
+=== Starting Day Simulation (ZIAD Algorithm) ===
+Number of customers: 100
+Number of stores: 15
+
+Initial Store Inventory:
+Krispy Kreme: Estimated=10, Actual=11, Price=$80.00, Rating=4.90
+TBS Pizza: Estimated=10, Actual=11, Price=$150.00, Rating=4.55
+Starbucks: Estimated=15, Actual=17, Price=$100.00, Rating=4.89
+Paul Bakery: Estimated=12, Actual=14, Price=$90.00, Rating=4.94
+Costa Coffee: Estimated=8, Actual=9, Price=$85.00, Rating=4.40
+Greggs: Estimated=20, Actual=23, Price=$70.00, Rating=4.60
+Pizza Hut: Estimated=14, Actual=16, Price=$140.00, Rating=4.50
+Pret A Manger: Estimated=18, Actual=21, Price=$95.00, Rating=4.62
+Subway: Estimated=16, Actual=19, Price=$110.00, Rating=4.08
+Tim Hortons: Estimated=10, Actual=11, Price=$80.00, Rating=4.25
+Dunkin Donuts: Estimated=12, Actual=14, Price=$75.00, Rating=4.56
+Domino's Pizza: Estimated=15, Actual=17, Price=$130.00, Rating=4.03
+Cinnabon: Estimated=9, Actual=10, Price=$85.00, Rating=4.51
+Caribou Coffee: Estimated=11, Actual=13, Price=$90.00, Rating=4.10
+Panera Bread: Estimated=13, Actual=15, Price=$95.00, Rating=4.23
+
+Total Reservations Made: 98
+Processing end of day...
+
+=== RATING CHANGES (Dynamic Ratings) ===
+Krispy Kreme: 4.90 -> 5.00 (+0.10) [Confirmed: 10, Cancelled: 0]
+TBS Pizza: 4.55 -> 4.61 (+0.06) [Confirmed: 6, Cancelled: 0]
+Starbucks: 4.89 -> 5.00 (+0.11) [Confirmed: 15, Cancelled: 0]
+Paul Bakery: 4.94 -> 5.00 (+0.06) [Confirmed: 12, Cancelled: 0]
+Costa Coffee: 4.40 -> 4.48 (+0.08) [Confirmed: 8, Cancelled: 0]
+Greggs: 4.60 -> 4.80 (+0.20) [Confirmed: 20, Cancelled: 0]
+Pizza Hut: 4.50 -> 4.58 (+0.08) [Confirmed: 8, Cancelled: 0]
+Pret A Manger: 4.62 -> 4.66 (+0.04) [Confirmed: 4, Cancelled: 0]
+Subway: 4.08 -> 4.11 (+0.03) [Confirmed: 3, Cancelled: 0]
+Tim Hortons: 4.25 -> 4.26 (+0.01) [Confirmed: 1, Cancelled: 0]
+Dunkin Donuts: 4.56 -> 4.62 (+0.06) [Confirmed: 6, Cancelled: 0]
+Domino's Pizza: 4.03 -> 4.03 (+0.00) [Confirmed: 0, Cancelled: 0]
+Cinnabon: 4.51 -> 4.55 (+0.04) [Confirmed: 4, Cancelled: 0]
+Caribou Coffee: 4.10 -> 4.10 (+0.00) [Confirmed: 0, Cancelled: 0]
+Panera Bread: 4.23 -> 4.24 (+0.01) [Confirmed: 1, Cancelled: 0]
+
+Day 6 Summary:
+  Bags Sold: 152
+  Waste: 69
+  Revenue: $14660.00
+
+----------------------------------------------------------------------
+DAY 7 of 7
+----------------------------------------------------------------------
+
+=== Starting Day Simulation (ZIAD Algorithm) ===
+Number of customers: 100
+Number of stores: 15
+
+Initial Store Inventory:
+Krispy Kreme: Estimated=10, Actual=11, Price=$80.00, Rating=5.00
+TBS Pizza: Estimated=10, Actual=11, Price=$150.00, Rating=4.61
+Starbucks: Estimated=15, Actual=17, Price=$100.00, Rating=5.00
+Paul Bakery: Estimated=12, Actual=14, Price=$90.00, Rating=5.00
+Costa Coffee: Estimated=8, Actual=9, Price=$85.00, Rating=4.48
+Greggs: Estimated=20, Actual=23, Price=$70.00, Rating=4.80
+Pizza Hut: Estimated=14, Actual=16, Price=$140.00, Rating=4.58
+Pret A Manger: Estimated=18, Actual=21, Price=$95.00, Rating=4.66
+Subway: Estimated=16, Actual=19, Price=$110.00, Rating=4.11
+Tim Hortons: Estimated=10, Actual=11, Price=$80.00, Rating=4.26
+Dunkin Donuts: Estimated=12, Actual=14, Price=$75.00, Rating=4.62
+Domino's Pizza: Estimated=15, Actual=17, Price=$130.00, Rating=4.03
+Cinnabon: Estimated=9, Actual=10, Price=$85.00, Rating=4.55
+Caribou Coffee: Estimated=11, Actual=13, Price=$90.00, Rating=4.10
+Panera Bread: Estimated=13, Actual=15, Price=$95.00, Rating=4.24
+
+Total Reservations Made: 99
+Processing end of day...
+
+=== RATING CHANGES (Dynamic Ratings) ===
+Krispy Kreme: 5.00 -> 5.00 (+0.00) [Confirmed: 10, Cancelled: 0]
+TBS Pizza: 4.61 -> 4.66 (+0.05) [Confirmed: 5, Cancelled: 0]
+Starbucks: 5.00 -> 5.00 (+0.00) [Confirmed: 15, Cancelled: 0]
+Paul Bakery: 5.00 -> 5.00 (+0.00) [Confirmed: 11, Cancelled: 0]
+Costa Coffee: 4.48 -> 4.56 (+0.08) [Confirmed: 8, Cancelled: 0]
+Greggs: 4.80 -> 4.97 (+0.17) [Confirmed: 17, Cancelled: 0]
+Pizza Hut: 4.58 -> 4.65 (+0.07) [Confirmed: 7, Cancelled: 0]
+Pret A Manger: 4.66 -> 4.74 (+0.08) [Confirmed: 8, Cancelled: 0]
+Subway: 4.11 -> 4.17 (+0.06) [Confirmed: 6, Cancelled: 0]
+Tim Hortons: 4.26 -> 4.27 (+0.01) [Confirmed: 1, Cancelled: 0]
+Dunkin Donuts: 4.62 -> 4.70 (+0.08) [Confirmed: 8, Cancelled: 0]
+Domino's Pizza: 4.03 -> 4.03 (+0.00) [Confirmed: 0, Cancelled: 0]
+Cinnabon: 4.55 -> 4.58 (+0.03) [Confirmed: 3, Cancelled: 0]
+Caribou Coffee: 4.10 -> 4.10 (+0.00) [Confirmed: 0, Cancelled: 0]
+Panera Bread: 4.24 -> 4.24 (+0.00) [Confirmed: 0, Cancelled: 0]
+
+Day 7 Summary:
+  Bags Sold: 166
+  Waste: 55
+  Revenue: $16135.00
+
+======================================================================
+=== 7-DAY SIMULATION COMPLETE ===
+======================================================================
+
+====================================================================================================
+ZIAD ALGORITHM RESULTS
+====================================================================================================
+
+========================================
+=== SIMULATION METRICS SUMMARY ===
+========================================
+
+--- SALES METRICS ---
+Total Bags Sold: 959
+Total Bags Cancelled: 20
+Total Bags Unsold (Waste): 395
+
+--- REVENUE METRICS ---
+Total Revenue Generated: $93110.00
+Revenue Lost (from cancellations): $1785.00
+Revenue Efficiency: 98.12%
+
+--- CUSTOMER METRICS ---
+Total Customer Arrivals: 700
+Customers Who Left (No Purchase): 57
+Conversion Rate: 91.86%
+
+--- FAIRNESS METRICS ---
+Gini Coefficient (Exposure): 0.3551
+  (0 = perfect equality, 1 = maximum inequality)
+
+========================================

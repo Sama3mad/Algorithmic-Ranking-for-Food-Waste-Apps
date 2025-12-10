@@ -1,0 +1,157 @@
+======================================================================
+FOOD WASTE MARKETPLACE SIMULATION - ALGORITHM COMPARISON REPORT
+======================================================================
+
+Simulation Period: 7 Days
+Customers per Day: 100
+Total Customers: 700
+
+====================================================================================================
+OVERALL METRICS COMPARISON
+====================================================================================================
+
+Metric                             BASELINE            SAMA                ANDREW              AMER                ZIAD                
+----------------------------------------------------------------------------------------------------
+Bags Sold                          697                 945                 996                 943                 959                 
+Bags Cancelled                     32                  23                  27                  25                  20                  
+Bags Unsold (Waste)                657                 409                 358                 411                 395                 
+Revenue Generated ($)              67510.00            91630.00            97220.00            92065.00            93110.00            
+Revenue Lost ($)                   3130.00             2115.00             2705.00             2415.00             1785.00             
+Revenue Efficiency (%)             95.57               97.74               97.29               97.44               98.12               
+Customers Who Left                 104                 55                  59                  63                  57                  
+Conversion Rate (%)                85.14               92.14               91.57               91.00               91.86               
+Gini Coefficient (Fairness)        0.5083              0.4239              0.3547              0.3733              0.3551              
+====================================================================================================
+
+====================================================================================================
+BASELINE ALGORITHM - DETAILED METRICS
+====================================================================================================
+
+--- SALES METRICS ---
+Total Bags Sold: 697
+Total Bags Cancelled: 32
+Total Bags Unsold (Waste): 657
+
+--- REVENUE METRICS ---
+Total Revenue Generated: $67510.00
+Revenue Lost (from cancellations): $3130.00
+Revenue Efficiency: 95.57%
+
+--- CUSTOMER METRICS ---
+Total Customer Arrivals: 700
+Customers Who Left (No Purchase): 104
+Conversion Rate: 85.14%
+
+--- FAIRNESS METRICS ---
+Gini Coefficient (Exposure): 0.5083
+  (0 = perfect equality, 1 = maximum inequality)
+
+
+====================================================================================================
+SAMA ALGORITHM - DETAILED METRICS
+====================================================================================================
+
+--- SALES METRICS ---
+Total Bags Sold: 945
+Total Bags Cancelled: 23
+Total Bags Unsold (Waste): 409
+
+--- REVENUE METRICS ---
+Total Revenue Generated: $91630.00
+Revenue Lost (from cancellations): $2115.00
+Revenue Efficiency: 97.74%
+
+--- CUSTOMER METRICS ---
+Total Customer Arrivals: 700
+Customers Who Left (No Purchase): 55
+Conversion Rate: 92.14%
+
+--- FAIRNESS METRICS ---
+Gini Coefficient (Exposure): 0.4239
+  (0 = perfect equality, 1 = maximum inequality)
+
+
+====================================================================================================
+ANDREW ALGORITHM - DETAILED METRICS
+====================================================================================================
+
+--- SALES METRICS ---
+Total Bags Sold: 996
+Total Bags Cancelled: 27
+Total Bags Unsold (Waste): 358
+
+--- REVENUE METRICS ---
+Total Revenue Generated: $97220.00
+Revenue Lost (from cancellations): $2705.00
+Revenue Efficiency: 97.29%
+
+--- CUSTOMER METRICS ---
+Total Customer Arrivals: 700
+Customers Who Left (No Purchase): 59
+Conversion Rate: 91.57%
+
+--- FAIRNESS METRICS ---
+Gini Coefficient (Exposure): 0.3547
+  (0 = perfect equality, 1 = maximum inequality)
+
+
+====================================================================================================
+AMER ALGORITHM - DETAILED METRICS
+====================================================================================================
+
+--- SALES METRICS ---
+Total Bags Sold: 943
+Total Bags Cancelled: 25
+Total Bags Unsold (Waste): 411
+
+--- REVENUE METRICS ---
+Total Revenue Generated: $92065.00
+Revenue Lost (from cancellations): $2415.00
+Revenue Efficiency: 97.44%
+
+--- CUSTOMER METRICS ---
+Total Customer Arrivals: 700
+Customers Who Left (No Purchase): 63
+Conversion Rate: 91.00%
+
+--- FAIRNESS METRICS ---
+Gini Coefficient (Exposure): 0.3733
+  (0 = perfect equality, 1 = maximum inequality)
+
+
+====================================================================================================
+ZIAD ALGORITHM - DETAILED METRICS
+====================================================================================================
+
+--- SALES METRICS ---
+Total Bags Sold: 959
+Total Bags Cancelled: 20
+Total Bags Unsold (Waste): 395
+
+--- REVENUE METRICS ---
+Total Revenue Generated: $93110.00
+Revenue Lost (from cancellations): $1785.00
+Revenue Efficiency: 98.12%
+
+--- CUSTOMER METRICS ---
+Total Customer Arrivals: 700
+Customers Who Left (No Purchase): 57
+Conversion Rate: 91.86%
+
+--- FAIRNESS METRICS ---
+Gini Coefficient (Exposure): 0.3551
+  (0 = perfect equality, 1 = maximum inequality)
+
+
+====================================================================================================
+ALGORITHM COMPARISON TABLE (vs BASELINE)
+====================================================================================================
+
+Metric                             Baseline            SAMA                ANDREW              AMER                ZIAD                
+----------------------------------------------------------------------------------------------------
+Bags Sold                          697                 +                   248+                   299+                   246+                   262
+Waste Reduction                    657                 +                   248+                   299+                   246+                   262
+Revenue Increase ($)               67510.00            +                   24120.00+                   29710.00+                   24555.00+                   25600.00
+Customers Retained                 596                 +                   49+                   45+                   41+                   47
+Fairness Improvement               0.5083              +                   0.0844+                   0.1535+                   0.1349+                   0.1532
+====================================================================================================
