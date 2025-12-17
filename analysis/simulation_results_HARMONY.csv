@@ -1,0 +1,17 @@
+Algorithm,BASELINE
+Restaurant,Estimated,Actual,Reserved,Sold,Cancelled,Waste,Revenue,Exposures
+Krispy Kreme,4,3,4,24,4,0,1920.00,70
+TBS Pizza,5,4,5,31,4,0,4650.00,199
+Starbucks,5,4,5,31,4,0,3100.00,126
+Paul Bakery,4,3,4,24,4,0,2160.00,98
+Costa Coffee,6,5,6,38,4,0,3230.00,157
+Greggs,25,24,25,171,6,0,11970.00,294
+Pizza Hut,7,6,7,45,5,0,6300.00,179
+Pret A Manger,5,4,5,31,4,0,2945.00,130
+Subway,22,21,21,150,4,0,16500.00,276
+Tim Hortons,8,7,3,48,0,3,3840.00,119
+Dunkin Donuts,6,5,5,38,2,0,2850.00,166
+Domino's Pizza,20,19,0,6,0,130,780.00,13
+Cinnabon,4,3,4,24,1,0,2040.00,88
+Caribou Coffee,18,17,0,0,0,121,0.00,0
+Panera Bread,19,18,4,75,0,53,7125.00,88

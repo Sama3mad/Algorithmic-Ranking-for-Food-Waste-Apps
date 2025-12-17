@@ -1,0 +1,17 @@
+store_id,store_name,branch,average_bags_at_9AM,average_overall_rating,price,longitude,latitude,business_type
+1,Krispy Kreme,Zamalek,4,4.8,80.0,31.22,30.05,bakery
+2,TBS Pizza,New Cairo,5,4.2,150.0,31.25,30.08,restaurant
+3,Starbucks,Zamalek,5,4.5,100.0,31.23,30.06,cafe
+4,Paul Bakery,New Cairo,4,4.6,90.0,31.26,30.09,bakery
+5,Costa Coffee,Zamalek,6,4.3,85.0,31.24,30.07,cafe
+6,Greggs,New Cairo,25,4.0,70.0,31.27,30.10,bakery
+7,Pizza Hut,Zamalek,7,4.1,140.0,31.21,30.04,restaurant
+8,Pret A Manger,New Cairo,5,4.4,95.0,31.28,30.11,cafe
+9,Subway,Zamalek,22,3.9,110.0,31.20,30.03,restaurant
+10,Tim Hortons,New Cairo,8,4.2,80.0,31.29,30.12,cafe
+11,Dunkin Donuts,Zamalek,6,4.3,75.0,31.19,30.02,bakery
+12,Domino's Pizza,New Cairo,20,4.0,130.0,31.30,30.13,restaurant
+13,Cinnabon,Zamalek,4,4.4,85.0,31.18,30.01,bakery
+14,Caribou Coffee,New Cairo,18,4.1,90.0,31.31,30.14,cafe
+15,Panera Bread,Zamalek,19,4.2,95.0,31.17,30.00,restaurant
+

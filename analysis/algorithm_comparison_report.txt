@@ -1,0 +1,181 @@
+======================================================================
+FOOD WASTE MARKETPLACE SIMULATION - ALGORITHM COMPARISON REPORT
+======================================================================
+
+Simulation Period: 7 Days
+Customers per Day: 100
+Total Customers: 700
+
+====================================================================================================
+OVERALL METRICS COMPARISON
+====================================================================================================
+
+Metric                             BASELINE            SAMA                ANDREW              AMER                ZIAD                HARMONY             
+----------------------------------------------------------------------------------------------------
+Bags Sold                          651                 733                 703                 706                 708                 736                 
+Bags Cancelled                     45                  41                  44                  43                  45                  42                  
+Bags Unsold (Waste)                392                 310                 340                 337                 335                 307                 
+Revenue Generated ($)              59455.00            69185.00            66230.00            66665.00            66715.00            69410.00            
+Revenue Lost ($)                   4320.00             3975.00             4280.00             4180.00             4350.00             4195.00             
+Revenue Efficiency (%)             93.23               94.57               93.93               94.10               93.88               94.30               
+Customers Who Left                 139                 50                  60                  64                  58                  59                  
+Conversion Rate (%)                80.14               92.86               91.43               90.86               91.71               91.57               
+Gini Coefficient (Fairness)        0.3489              0.4627              0.3649              0.3016              0.3085              0.3334              
+====================================================================================================
+
+====================================================================================================
+BASELINE ALGORITHM - DETAILED METRICS
+====================================================================================================
+
+--- SALES METRICS ---
+Total Bags Sold: 651
+Total Bags Cancelled: 45
+Total Bags Unsold (Waste): 392
+
+--- REVENUE METRICS ---
+Total Revenue Generated: $59455.00
+Revenue Lost (from cancellations): $4320.00
+Revenue Efficiency: 93.23%
+
+--- CUSTOMER METRICS ---
+Total Customer Arrivals: 700
+Customers Who Left (No Purchase): 139
+Conversion Rate: 80.14%
+
+--- FAIRNESS METRICS ---
+Gini Coefficient (Exposure): 0.3489
+  (0 = perfect equality, 1 = maximum inequality)
+
+
+====================================================================================================
+SAMA ALGORITHM - DETAILED METRICS
+====================================================================================================
+
+--- SALES METRICS ---
+Total Bags Sold: 733
+Total Bags Cancelled: 41
+Total Bags Unsold (Waste): 310
+
+--- REVENUE METRICS ---
+Total Revenue Generated: $69185.00
+Revenue Lost (from cancellations): $3975.00
+Revenue Efficiency: 94.57%
+
+--- CUSTOMER METRICS ---
+Total Customer Arrivals: 700
+Customers Who Left (No Purchase): 50
+Conversion Rate: 92.86%
+
+--- FAIRNESS METRICS ---
+Gini Coefficient (Exposure): 0.4627
+  (0 = perfect equality, 1 = maximum inequality)
+
+
+====================================================================================================
+ANDREW ALGORITHM - DETAILED METRICS
+====================================================================================================
+
+--- SALES METRICS ---
+Total Bags Sold: 703
+Total Bags Cancelled: 44
+Total Bags Unsold (Waste): 340
+
+--- REVENUE METRICS ---
+Total Revenue Generated: $66230.00
+Revenue Lost (from cancellations): $4280.00
+Revenue Efficiency: 93.93%
+
+--- CUSTOMER METRICS ---
+Total Customer Arrivals: 700
+Customers Who Left (No Purchase): 60
+Conversion Rate: 91.43%
+
+--- FAIRNESS METRICS ---
+Gini Coefficient (Exposure): 0.3649
+  (0 = perfect equality, 1 = maximum inequality)
+
+
+====================================================================================================
+AMER ALGORITHM - DETAILED METRICS
+====================================================================================================
+
+--- SALES METRICS ---
+Total Bags Sold: 706
+Total Bags Cancelled: 43
+Total Bags Unsold (Waste): 337
+
+--- REVENUE METRICS ---
+Total Revenue Generated: $66665.00
+Revenue Lost (from cancellations): $4180.00
+Revenue Efficiency: 94.10%
+
+--- CUSTOMER METRICS ---
+Total Customer Arrivals: 700
+Customers Who Left (No Purchase): 64
+Conversion Rate: 90.86%
+
+--- FAIRNESS METRICS ---
+Gini Coefficient (Exposure): 0.3016
+  (0 = perfect equality, 1 = maximum inequality)
+
+
+====================================================================================================
+ZIAD ALGORITHM - DETAILED METRICS
+====================================================================================================
+
+--- SALES METRICS ---
+Total Bags Sold: 708
+Total Bags Cancelled: 45
+Total Bags Unsold (Waste): 335
+
+--- REVENUE METRICS ---
+Total Revenue Generated: $66715.00
+Revenue Lost (from cancellations): $4350.00
+Revenue Efficiency: 93.88%
+
+--- CUSTOMER METRICS ---
+Total Customer Arrivals: 700
+Customers Who Left (No Purchase): 58
+Conversion Rate: 91.71%
+
+--- FAIRNESS METRICS ---
+Gini Coefficient (Exposure): 0.3085
+  (0 = perfect equality, 1 = maximum inequality)
+
+
+====================================================================================================
+HARMONY ALGORITHM - DETAILED METRICS
+====================================================================================================
+
+--- SALES METRICS ---
+Total Bags Sold: 736
+Total Bags Cancelled: 42
+Total Bags Unsold (Waste): 307
+
+--- REVENUE METRICS ---
+Total Revenue Generated: $69410.00
+Revenue Lost (from cancellations): $4195.00
+Revenue Efficiency: 94.30%
+
+--- CUSTOMER METRICS ---
+Total Customer Arrivals: 700
+Customers Who Left (No Purchase): 59
+Conversion Rate: 91.57%
+
+--- FAIRNESS METRICS ---
+Gini Coefficient (Exposure): 0.3334
+  (0 = perfect equality, 1 = maximum inequality)
+
+
+====================================================================================================
+ALGORITHM COMPARISON TABLE (vs BASELINE)
+====================================================================================================
+
+Metric                             Baseline            SAMA                ANDREW              AMER                ZIAD                HARMONY             
+----------------------------------------------------------------------------------------------------
+Bags Sold                          651                 +                   82+                   52+                   55+                   57+                   85
+Waste Reduction                    392                 +                   82+                   52+                   55+                   57+                   85
+Revenue Increase ($)               59455.00            +                   9730.00+                   6775.00+                   7210.00+                   7260.00+                   9955.00
+Customers Retained                 561                 +                   89+                   79+                   75+                   81+                   80
+Fairness Improvement               0.3489                                  -0.1138                    -0.0161+                   0.0472+                   0.0404+                   0.0155
+====================================================================================================
