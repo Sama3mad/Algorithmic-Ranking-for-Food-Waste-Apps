@@ -216,8 +216,7 @@ CustomerID,longitude,latitude,store1_id_valuation,store2_id_valuation,...,store1
 📦 **Source Code**: [https://github.com/Sama3mad/Algorithmic-Ranking-for-Food-Waste-Apps.git](https://github.com/Sama3mad/Algorithmic-Ranking-for-Food-Waste-Apps.git)
 
 ### Live Dashboard
-🌐 **Interactive Dashboard**: [Add your Vercel deployment URL here]
-*(To get your Vercel URL: Deploy the dashboard folder to Vercel and update this link)*
+🌐 **Interactive Dashboard**: [food-waste-dpp-dashboard2.vercel.app]
 
 ### Documentation
 📖 **Project Report**: See `PROJECT_REPORT.txt` in the repository for detailed documentation including:
