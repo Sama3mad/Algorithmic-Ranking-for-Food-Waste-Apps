@@ -210,22 +210,6 @@ CustomerID,longitude,latitude,store1_id_valuation,store2_id_valuation,...,store1
 - `longitude`, `latitude`: Customer location
 - `storeX_id_valuation`: Preference value [0,1] for each restaurant
 
-## 🔗 Links
-
-### GitHub Repository
-📦 **Source Code**: [https://github.com/Sama3mad/Algorithmic-Ranking-for-Food-Waste-Apps.git](https://github.com/Sama3mad/Algorithmic-Ranking-for-Food-Waste-Apps.git)
-
-### Live Dashboard
-🌐 **Interactive Dashboard**: [food-waste-dpp-dashboard2.vercel.app]
-
-### Documentation
-📖 **Project Report**: See `PROJECT_REPORT.txt` in the repository for detailed documentation including:
-- System description and assumptions
-- Algorithm design and justification
-- Evaluation metrics
-- Results analysis
-- Code walkthrough
-
 ## 📈 Simulation Parameters
 
 Default simulation configuration:
@@ -258,29 +242,4 @@ Edit the following in the source code:
 - **`Customer.cpp`**: Modify `MAX_TRAVEL_DISTANCE` (default: 0.05)
 - **`Restaurant.h`**: Change `max_bags_per_customer` (default: 3)
 - **`SimulationEngine.cpp`**: Adjust `N_DISPLAYED` (default: 5)
-
-### Add New Ranking Algorithms
-
-1. Add algorithm enum to `RankingAlgorithms.h`
-2. Implement algorithm in `RankingAlgorithms.cpp`
-3. Add case to dispatcher function `get_displayed_stores()`
-4. Update `main.cpp` to include in algorithm list
-
-## 🤝 Contributors
-
-- **Sama**: Algorithm design and implementation
-- **Team Members**: Algorithm contributions (SAMA, ANDREW, AMER, ZIAD algorithms)
-
-## 📝 License
-
-This project is part of an academic research project on algorithmic ranking for food waste applications.
-
-## 🙏 Acknowledgments
-
-- Inspired by food waste reduction platforms like Too Good To Go
-- Uses standard algorithms: Softmax for probabilistic selection, Gini coefficient for fairness measurement
-
----
-
-**Note**: For detailed technical documentation, algorithm descriptions, and implementation details, please refer to `PROJECT_REPORT.txt` in the repository root.
 
